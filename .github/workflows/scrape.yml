@@ -25,3 +25,9 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Últimos datos: ${timestamp}" || exit 0
         git push
+    - name: Setup Dart SDK
+      uses: dart-lang/setup-dart@v1.0
+    - name: Processing
+      run: |-
+        dart --version
+        dart procesador.dart
