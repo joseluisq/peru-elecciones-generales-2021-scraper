@@ -27,6 +27,8 @@ jobs:
         git push
     - name: Setup Dart SDK
       uses: dart-lang/setup-dart@v1.0
+      with:
+        sdk: [2.10.4]
     - name: Processing
       run: |-
         dart --version
