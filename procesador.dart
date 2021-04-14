@@ -8,8 +8,6 @@ class JsonResults {
   final List<Results> results;
   final Summary summary;
 
-  JsonResults({this.generals, this.results, this.summary});
-
   JsonResults.fromJson(Map<String, dynamic> json)
       : generals = Generals.fromJson(json['generals']),
         results =
@@ -35,8 +33,6 @@ class Generals {
   final GeneralData generalData;
   final ActData actData;
   final String realImages;
-
-  Generals({this.generalData, this.actData, this.realImages});
 
   Generals.fromJson(Map<String, dynamic> json)
       : generalData = GeneralData.fromJson(json['generalData']),
@@ -68,18 +64,6 @@ class GeneralData {
   final String pORPORPROCESAR;
   final String nCANDIDATOS;
 
-  GeneralData(
-      {this.eLECTORESHABIL,
-      this.tOTCIUDADANOSVOTARON,
-      this.pORCIUDADANOSVOTARON,
-      this.pORACTASCONTABILIZADAS,
-      this.pORACTASPROCESADAS,
-      this.aCTASPROCESADAS,
-      this.pORPROCESAR,
-      this.cONTABILIZA,
-      this.pORPORPROCESAR,
-      this.nCANDIDATOS});
-
   GeneralData.fromJson(Map<String, dynamic> json)
       : eLECTORESHABIL = json['ELECTORES_HABIL'],
         tOTCIUDADANOSVOTARON = json['TOT_CIUDADANOS_VOTARON'],
@@ -109,17 +93,14 @@ class GeneralData {
 }
 
 class ActData {
-  String fECHA;
-  String hORA;
-  String pORAVANCE;
+  final String fECHA;
+  final String hORA;
+  final String pORAVANCE;
 
-  ActData({this.fECHA, this.hORA, this.pORAVANCE});
-
-  ActData.fromJson(Map<String, dynamic> json) {
-    fECHA = json['FECHA'];
-    hORA = json['HORA'];
-    pORAVANCE = json['POR_AVANCE'];
-  }
+  ActData.fromJson(Map<String, dynamic> json)
+      : fECHA = json['FECHA'],
+        hORA = json['HORA'],
+        pORAVANCE = json['POR_AVANCE'];
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
@@ -138,36 +119,23 @@ class Results {
   final String pORVALIDOS;
   final String pOREMITIDOS;
   final String nOMBREeCANDIDATO;
-  final Null iMAGENAGRUPACION;
+  final String iMAGENAGRUPACION;
   final String pORCAVANCEACTA;
   final String aCTASCOMPUTADA;
   final String tOTALMESAS;
 
-  Results(
-      {this.cCODIAGRUPOL,
-      this.aGRUPACION,
-      this.tOTALVOTOS,
-      this.nLISTA,
-      this.pORVALIDOS,
-      this.pOREMITIDOS,
-      this.nOMBREeCANDIDATO,
-      this.iMAGENAGRUPACION,
-      this.pORCAVANCEACTA,
-      this.aCTASCOMPUTADA,
-      this.tOTALMESAS});
-
   Results.fromJson(Map<String, dynamic> json)
-      : cCODIAGRUPOL = json['C_CODI_AGRUPOL'],
+      : cCODIAGRUPOL = json['C_CODI_AGRUPOL'] ?? "",
         aGRUPACION = json['AGRUPACION'],
         tOTALVOTOS = json['TOTAL_VOTOS'],
-        nLISTA = json['NLISTA'],
-        pORVALIDOS = json['POR_VALIDOS'],
+        nLISTA = json['NLISTA'] ?? "",
+        pORVALIDOS = json['POR_VALIDOS'] ?? "",
         pOREMITIDOS = json['POR_EMITIDOS'],
-        nOMBREeCANDIDATO = json['NOMBREe_CANDIDATO'],
-        iMAGENAGRUPACION = json['IMAGENAGRUPACION'],
-        pORCAVANCEACTA = json['PORC_AVANCE_ACTA'],
-        aCTASCOMPUTADA = json['ACTAS_COMPUTADA'],
-        tOTALMESAS = json['TOTAL_MESAS'];
+        nOMBREeCANDIDATO = json['NOMBREe_CANDIDATO'] ?? "",
+        iMAGENAGRUPACION = json['IMAGENAGRUPACION'] ?? "",
+        pORCAVANCEACTA = json['PORC_AVANCE_ACTA'] ?? "",
+        aCTASCOMPUTADA = json['ACTAS_COMPUTADA'] ?? "",
+        tOTALMESAS = json['TOTAL_MESAS'] ?? "";
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
@@ -214,35 +182,6 @@ class Summary {
   final String eLECTORESHABIL;
   final String eLECTORESHABIL50;
   final String tOTALJEE;
-
-  Summary(
-      {this.cCODIUBIGEO,
-      this.cONTABILIZA,
-      this.cONTNORMAL,
-      this.iMPUGNADA,
-      this.eRRORMAT,
-      this.mESASINSTALADAS,
-      this.aCTASPROCESADAS,
-      this.sOLNULIDAD,
-      this.iLEGIBLE,
-      this.pENDIENTE,
-      this.oTRASOBS,
-      this.sINDATOS,
-      this.cONTANULADA,
-      this.pORPROCESAR,
-      this.eXTRAVIADA,
-      this.sINIESTRADA,
-      this.iNCOMPLETA,
-      this.sINFIRMA,
-      this.aINSTALAR,
-      this.mESASNOINST,
-      this.fUSIONADAS,
-      this.nTOTALAUTO,
-      this.mESASHABILES,
-      this.tOTCIUDADANOSVOTARON,
-      this.eLECTORESHABIL,
-      this.eLECTORESHABIL50,
-      this.tOTALJEE});
 
   Summary.fromJson(Map<String, dynamic> json)
       : cCODIUBIGEO = json['CCODI_UBIGEO'],
@@ -307,18 +246,14 @@ class Summary {
 }
 
 void main() async {
-  try {
-    String jsonFilePath = 'elecciones_generales_2021.json';
-    String jsonContent = await File(jsonFilePath).readAsString();
-    var obj = JsonResults.fromJson(json.decode(jsonContent));
+  String jsonFilePath = 'elecciones_generales_2021.json';
+  String jsonContent = await File(jsonFilePath).readAsString();
+  var obj = JsonResults.fromJson(json.decode(jsonContent));
 
-    // TODO: print HTML page using this JSON data
-    print('Elecciones Generales 2021');
-    print('-------------------------');
-    print('Fecha: ${obj.generals.actData.fECHA}');
-    print('Hora: ${obj.generals.actData.hORA}');
-    print('Por Avance: ${obj.generals.actData.pORAVANCE.trim()}');
-  } catch (ex) {
-    throw ex;
-  }
+  // TODO: print HTML page using this JSON data
+  print('Elecciones Generales 2021');
+  print('-------------------------');
+  print('Fecha: ${obj.generals.actData.fECHA}');
+  print('Hora: ${obj.generals.actData.hORA}');
+  print('Por Avance: ${obj.generals.actData.pORAVANCE.trim()}');
 }
