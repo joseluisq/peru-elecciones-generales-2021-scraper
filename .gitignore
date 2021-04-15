@@ -1,1 +1,7 @@
 .DS_Store
+*.exe
+*.aot
+*.jit
+*.js
+*.deps
+*.map
