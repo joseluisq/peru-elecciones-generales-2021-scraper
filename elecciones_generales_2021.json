@@ -5,16 +5,16 @@
       "TOT_CIUDADANOS_VOTARON": "16,950,611",
       "POR_CIUDADANOS_VOTARON": "70.211",
       "POR_ACTAS_CONTABILIZADAS": "95.515",
-      "POR_ACTAS_PROCESADAS": "99.949",
-      "ACTAS_PROCESADAS": "86,444",
-      "POR_PROCESAR": "44",
+      "POR_ACTAS_PROCESADAS": "99.951",
+      "ACTAS_PROCESADAS": "86,446",
+      "POR_PROCESAR": "42",
       "CONTABILIZA": "82,609",
-      "POR_POR_PROCESAR": "0.051",
+      "POR_POR_PROCESAR": "0.049",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "15/04/2021",
-      "HORA": "03:16 h",
+      "HORA": "03:46 h",
       "POR_AVANCE": "  94.9093"
     },
     "realImages": "1"
@@ -237,15 +237,15 @@
     "CONT_NORMAL": "82,075",
     "IMPUGNADA": "326",
     "ERROR_MAT": "2,266",
-    "MESAS_INSTALADAS": "85,959",
-    "ACTAS_PROCESADAS": "86,444",
+    "MESAS_INSTALADAS": "85,961",
+    "ACTAS_PROCESADAS": "86,446",
     "SOL_NULIDAD": "0",
     "ILEGIBLE": "104",
     "PENDIENTE": "42",
-    "OTRAS_OBS": "716",
+    "OTRAS_OBS": "718",
     "SIN_DATOS": "5",
     "CONT_ANULADA": "49",
-    "POR_PROCESAR": "44",
+    "POR_PROCESAR": "42",
     "EXTRAVIADA": "2",
     "SINIESTRADA": "0",
     "INCOMPLETA": "185",
@@ -258,6 +258,6 @@
     "TOT_CIUDADANOS_VOTARON": "16,950,611",
     "ELECTORES_HABIL": "24,142,474",
     "ELECTORES_HABIL_50": "12,071,751",
-    "TOTAL_JEE": "3,835"
+    "TOTAL_JEE": "3,837"
   }
 }
