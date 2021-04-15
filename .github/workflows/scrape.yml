@@ -33,4 +33,4 @@ jobs:
       run: |-
         make fmt_lint
         make lint
-        make run
+        make jit
