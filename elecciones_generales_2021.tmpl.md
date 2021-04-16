@@ -23,7 +23,7 @@
         body {
             font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
             max-width: 50rem;
-            padding: 1.25rem 0;
+            padding: 1.25rem;
             margin: 0 auto;
             color: #4a4a4a;
             font-size: 1rem;
