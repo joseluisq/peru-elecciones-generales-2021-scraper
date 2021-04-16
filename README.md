@@ -4,7 +4,13 @@
 
 Hace un simple JSON scraping de la página de resultados de la [ONPE](https://www.onpe.gob.pe/) sobre las [Eleciones Generales Perú 2021](https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T) y lo confirma de nuevo en este repositorio.
 
-El objetivo es poder ver el historial y las diferencias de resultados via el archivo [elecciones_generales_2021.json](elecciones_generales_2021.json).
+El objetivo es poder ver el historial y las diferencias de resultados.
+
+## Datos
+
+- [Elecciones Generales Perú 2021](https://joseluisq.github.io/peru-elecciones-generales-2021-scraper/elecciones_generales_2021.html) (Página web)
+- [elecciones_generales_2021.json](elecciones_generales_2021.json) (Archivo JSON)
+- [elecciones_generales_2021.html](elecciones_generales_2021.html) (Archivo HTML)
 
 ## Desarrollo 
 
