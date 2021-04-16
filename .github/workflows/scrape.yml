@@ -14,9 +14,8 @@ jobs:
     steps:
     - name: Dependencies
       run: |-
-        curl -LO http://deb.debian.org/debian/pool/main/t/tidy-html5/tidy-html5_5.6.0-10.debian.tar.xz
-        sudo dpkg -i tidy-html5_5.6.0-10.debian.tar.xz
-        sudo apt-get install tidy-html5
+        curl -LO https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bit.deb
+        sudo dpkg -i tidy-5.4.0-64bit.deb
     - name: Check out
       uses: actions/checkout@v2
       with:
