@@ -13,7 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Dependencies
-      run: sudo apt-get install tidy-html5
+      run: |-
+        curl -LO http://deb.debian.org/debian/pool/main/t/tidy-html5/tidy-html5_5.6.0-10.debian.tar.xz
+        sudo dpkg -i tidy-html5_5.6.0-10.debian.tar.xz
+        sudo apt-get install tidy-html5
     - name: Check out
       uses: actions/checkout@v2
       with:
