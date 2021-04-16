@@ -5,3 +5,10 @@
 *.js
 *.deps
 *.map
+*.html
+public
+.dart_tool
+.packages
+pubspec.lock
+
+!elecciones_generales_2021.html

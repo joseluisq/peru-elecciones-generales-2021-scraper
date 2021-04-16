@@ -1,0 +1,9 @@
+name: elecciones_generales_2021
+version: 0.0.0
+description: Elecciones Generales 2021 - Scraper
+
+environment:
+  sdk: '>=2.12.3'
+
+dependencies:
+  markdown: ^4.0.0
