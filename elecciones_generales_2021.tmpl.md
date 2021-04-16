@@ -73,11 +73,11 @@
 
 > Un simple JSON [Scraper](https://es.wikipedia.org/wiki/Web_scraping) de las [Eleciones Generales Perú 2021](https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T) inpirado en [NYT Vote Scraper](https://github.com/alex/nyt-2020-election-scraper).
 
-Esta applicación web Hace un simple JSON scraping de la página de resultados de la [ONPE](https://www.onpe.gob.pe/) sobre las [Eleciones Generales Perú 2021](https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T) y crea un registro ([`commit`](https://git-scm.com/docs/git-commit)) en un repositorio de [Git](https://git-scm.com/).
+Esta applicación web realiza un simple JSON scraping de la página de resultados de la [ONPE](https://www.onpe.gob.pe/) sobre las [Eleciones Generales Perú 2021](https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T) y crea un registro ([`commit`](https://git-scm.com/docs/git-commit)) en un repositorio de [Git](https://git-scm.com/).
 
 El objetivo es poder ver el historial y las diferencias de resultados ([`diff`](https://git-scm.com/docs/git-diff)) via el archivo [elecciones_generales_2021.json](https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/blob/master/elecciones_generales_2021.json).
 
-El contenido de esta página es actualizada cada 30 minutos.
+El contenido de esta página se actualiza cada 30 minutos.
 
 {{body}}
 

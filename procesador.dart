@@ -253,14 +253,14 @@ Future<void> main() async {
 
 - **Actas Procesadas:** ${general.porActasProcesadas}%
 - **Actas Contabilizadas:** ${general.porActasContabilizadas}%
-- **Fecha de Actualización:** ${actData.fecha} a las ${actData.hora}
+- **Fecha de Actualización:** ${actData.fecha} ${actData.hora}
 </ul>
 
 <div style="overflow-x:auto;">
 
 | Electores Hábiles	| Participación Ciudadana | (%) Participación Ciudadana | (%) Actas Procesadas |
 | --- | --- | --- | --- |
-| ${general.electoresHabiles}%  | ${general.totalCiudadanosVotaron}% | ${general.porCiudadanosVotaron}% | ${general.porActasProcesadas}% |
+| ${general.electoresHabiles}%  | ${general.totalCiudadanosVotaron} | ${general.porCiudadanosVotaron}% | ${general.porActasProcesadas}% |
 
 </div>
 ''';
