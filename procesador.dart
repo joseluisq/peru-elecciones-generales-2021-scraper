@@ -257,9 +257,9 @@ Future<void> main() async {
 
 <div style="overflow-x:auto;">
 
-| Electores Hábiles	| Participación Ciudadana | (%) Participación Ciudadana | (%) Actas Procesadas |
+| Electores Hábiles | Participación Ciudadana | (%) Participación Ciudadana | (%) Actas Procesadas |
 | --- | --- | --- | --- |
-| ${general.electoresHabiles}%  | ${general.totalCiudadanosVotaron} | ${general.porCiudadanosVotaron}% | ${general.porActasProcesadas}% |
+| ${general.electoresHabiles}% | ${general.totalCiudadanosVotaron} | ${general.porCiudadanosVotaron}% | ${general.porActasProcesadas}% |
 
 </div>
 ''')..write('''
@@ -276,8 +276,7 @@ _Ordenado por "(%) Votos Válidos" de forma descendente._
 
   obj.results.sort((a, b) {
     if (a.porValidos != null && b.porValidos != null) {
-      return double.parse(b.porValidos!)
-          .compareTo(double.parse(a.porValidos!.replaceAll('%', '')));
+      return double.parse(b.porValidos!).compareTo(double.parse(a.porValidos!));
     }
 
     return -1;
