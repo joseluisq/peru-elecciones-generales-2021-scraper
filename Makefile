@@ -13,6 +13,11 @@ jit:
 	@dart compile jit-snapshot procesador.dart
 .PHONY: jit
 
+dep:
+	@dart --version
+	@dart pub get
+.PHONY: dep
+
 fmt_lint:
 	@dart --version
 	@dartfmt --dry-run --set-exit-if-changed .
