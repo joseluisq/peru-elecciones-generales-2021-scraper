@@ -23,7 +23,7 @@
         body {
             font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
             max-width: 50rem;
-            padding: 1.25rem;
+            padding: 1rem;
             margin: 0 auto;
             color: #4a4a4a;
             font-size: 1rem;
@@ -50,6 +50,7 @@
             text-align: left;
         }
         h1 {
+            margin-top: 0;
             text-align: center;
         }
         h1,h2,h3 {
@@ -59,7 +60,7 @@
         blockquote {
             background-color: #f5f5f5;
             border-left: 5px solid #dbdbdb;
-            padding: 0.1rem 1.5rem;
+            padding: 0.1rem 1rem;
             margin: 0;
         }
         code, pre {
@@ -69,6 +70,12 @@
             background-color: #f5f5f5;
             border-radius: 6px;
             font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+        }
+        @media only screen and (max-width: 600px) {
+            table td,
+            table th {
+                font-size: small;
+            }
         }
     </style>
 </head>
