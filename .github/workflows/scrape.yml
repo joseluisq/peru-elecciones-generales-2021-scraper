@@ -12,6 +12,8 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
+    - name: Dependencies
+      run: sudo apt-get install tidy-html5
     - name: Check out
       uses: actions/checkout@v2
       with:
@@ -35,8 +37,10 @@ jobs:
         make fmt_lint
         make lint
         make jit
+        mv elecciones_generales_2021.html /tmp/
     - name: Commit/Push if data changed
       run: |-
+        tidy -i /tmp/elecciones_generales_2021.html > elecciones_generales_2021.html
         git config user.name "Automatizado"
         git config user.email "actions@users.noreply.github.com"
         git add -A

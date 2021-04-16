@@ -63,6 +63,9 @@
             padding: 0.1rem 1rem;
             margin: 0;
         }
+        ul {
+            padding-left: 2rem;
+        }
         code, pre {
             padding: .2em .4em;
             margin: 0;
