@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="JSON Scraper de las Elecciones Generales Perú 2021">
+    <meta name="description" content="Un JSON Scraper de las Elecciones Generales Perú 2021">
     <meta charset="UTF-8">
     <title>Elecciones Generales 2021</title>
     <style>
@@ -37,12 +37,17 @@
         }
         table td,
         table th {
-            text-align: right;
             border: 1px solid #dbdbdb;
             border-width: 0 0 1px;
             padding: .5rem .75rem;
             vertical-align: top;
             border-width: 1px;
+        }
+        table td {
+            text-align: right;
+        }
+        .table-default table td:first-child {
+            text-align: left;
         }
         h1 {
             text-align: center;
@@ -69,7 +74,7 @@
 </head>
 <body>
 
-# JSON Scraper de las Elecciones Generales Perú 2021
+# Elecciones Generales Perú 2021
 
 > Un simple JSON [Scraper](https://es.wikipedia.org/wiki/Web_scraping) de las [Eleciones Generales Perú 2021](https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T) inpirado en [NYT Vote Scraper](https://github.com/alex/nyt-2020-election-scraper).
 

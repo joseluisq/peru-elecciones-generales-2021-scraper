@@ -248,13 +248,12 @@ Future<void> main() async {
   // Crear contenido HTML
   final general = obj.generals.generalData;
   final actData = obj.generals.actData;
-  final details = '''
+  final details = StringBuffer()..write('''
 ## Fórmula Presidencial — Todos
 
 - **Actas Procesadas:** ${general.porActasProcesadas}%
 - **Actas Contabilizadas:** ${general.porActasContabilizadas}%
 - **Fecha de Actualización:** ${actData.fecha} ${actData.hora}
-</ul>
 
 <div style="overflow-x:auto;">
 
@@ -263,10 +262,39 @@ Future<void> main() async {
 | ${general.electoresHabiles}%  | ${general.totalCiudadanosVotaron} | ${general.porCiudadanosVotaron}% | ${general.porActasProcesadas}% |
 
 </div>
-''';
+''')..write('''
+
+## Total de Votos
+
+_Ordenado por "(%) Votos Válidos" de forma descendente._
+
+<div class="table-default" style="overflow-x:auto;">
+
+| Organización Política | Total Votos | (%) Votos Válidos | (%) Votos Emitidos |
+| --- | --- | --- | --- |
+''');
+
+  obj.results.sort((a, b) {
+    if (a.porValidos != null && b.porValidos != null) {
+      return double.parse(b.porValidos!)
+          .compareTo(double.parse(a.porValidos!.replaceAll('%', '')));
+    }
+
+    return -1;
+  });
+
+  for (var r in obj.results) {
+    if (r.nLista != null) {
+      details.write('''
+| ${r.agrupacion}  | ${r.totalVotos} | ${r.porValidos}% | ${r.porEmitidos}% |
+''');
+    }
+  }
+
+  details.write('\n</div>');
 
   var pageMd = await File('elecciones_generales_2021.tmpl.md').readAsString();
-  pageMd = pageMd.replaceFirst('{{body}}', details);
+  pageMd = pageMd.replaceFirst('{{body}}', details.toString());
 
   await File('elecciones_generales_2021.html').writeAsString(
       markdownToHtml(pageMd, extensionSet: ExtensionSet.gitHubFlavored));
