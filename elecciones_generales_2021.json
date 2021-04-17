@@ -1,20 +1,20 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "24,413,533",
-      "TOT_CIUDADANOS_VOTARON": "17,140,645",
+      "ELECTORES_HABIL": "24,413,699",
+      "TOT_CIUDADANOS_VOTARON": "17,140,811",
       "POR_CIUDADANOS_VOTARON": "70.210",
-      "POR_ACTAS_CONTABILIZADAS": "96.580",
+      "POR_ACTAS_CONTABILIZADAS": "96.581",
       "POR_ACTAS_PROCESADAS": "100.000",
       "ACTAS_PROCESADAS": "86,488",
       "POR_PROCESAR": "0",
-      "CONTABILIZA": "83,530",
+      "CONTABILIZA": "83,531",
       "POR_POR_PROCESAR": "0.000",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "17/04/2021",
-      "HORA": "11:27 h",
+      "HORA": "12:31 h",
       "POR_AVANCE": "  95.9112"
     },
     "realImages": "1"
@@ -71,7 +71,7 @@
       "TOTAL_VOTOS": "1,280,504",
       "NLISTA": "7",
       "POR_VALIDOS": "9.107",
-      "POR_EMITIDOS": "7.471",
+      "POR_EMITIDOS": "7.470",
       "NOMBREe_CANDIDATO": "YONHY LESCANO ANCIETA"
     },
     {
@@ -134,7 +134,7 @@
       "TOTAL_VOTOS": "1,646,107",
       "NLISTA": "15",
       "POR_VALIDOS": "11.707",
-      "POR_EMITIDOS": "9.604",
+      "POR_EMITIDOS": "9.603",
       "NOMBREe_CANDIDATO": "RAFAEL BERNARDO LOPEZ ALIAGA CAZORLA"
     },
     {
@@ -213,10 +213,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "938,703",
+      "TOTAL_VOTOS": "938,869",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "5.476"
+      "POR_EMITIDOS": "5.477"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -225,7 +225,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,140,645",
+      "TOTAL_VOTOS": "17,140,811",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -233,7 +233,7 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "000000",
-    "CONTABILIZA": "83,530",
+    "CONTABILIZA": "83,531",
     "CONT_NORMAL": "82,786",
     "IMPUGNADA": "257",
     "ERROR_MAT": "1,720",
@@ -244,20 +244,20 @@
     "PENDIENTE": "0",
     "OTRAS_OBS": "546",
     "SIN_DATOS": "4",
-    "CONT_ANULADA": "252",
+    "CONT_ANULADA": "253",
     "POR_PROCESAR": "0",
     "EXTRAVIADA": "11",
     "SINIESTRADA": "0",
     "INCOMPLETA": "156",
-    "SIN_FIRMA": "191",
+    "SIN_FIRMA": "190",
     "A_INSTALAR": "86,488",
     "MESAS_NO_INST": "492",
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "86,488",
-    "TOT_CIUDADANOS_VOTARON": "17,140,645",
-    "ELECTORES_HABIL": "24,413,533",
-    "ELECTORES_HABIL_50": "12,207,284",
-    "TOTAL_JEE": "2,958"
+    "TOT_CIUDADANOS_VOTARON": "17,140,811",
+    "ELECTORES_HABIL": "24,413,699",
+    "ELECTORES_HABIL_50": "12,207,367",
+    "TOTAL_JEE": "2,957"
   }
 }
