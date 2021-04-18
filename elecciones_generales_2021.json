@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "24,444,472",
-      "TOT_CIUDADANOS_VOTARON": "17,161,168",
-      "POR_CIUDADANOS_VOTARON": "70.205",
-      "POR_ACTAS_CONTABILIZADAS": "96.701",
+      "ELECTORES_HABIL": "24,449,824",
+      "TOT_CIUDADANOS_VOTARON": "17,164,805",
+      "POR_CIUDADANOS_VOTARON": "70.204",
+      "POR_ACTAS_CONTABILIZADAS": "96.722",
       "POR_ACTAS_PROCESADAS": "100.000",
       "ACTAS_PROCESADAS": "86,488",
       "POR_PROCESAR": "0",
-      "CONTABILIZA": "83,635",
+      "CONTABILIZA": "83,653",
       "POR_POR_PROCESAR": "0.000",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "17/04/2021",
-      "HORA": "18:51 h",
-      "POR_AVANCE": "  96.0297"
+      "HORA": "19:47 h",
+      "POR_AVANCE": "  96.0495"
     },
     "realImages": "1"
   },
@@ -23,7 +23,7 @@
     {
       "C_CODI_AGRUPOL": "00000012",
       "AGRUPACION": "PARTIDO NACIONALISTA PERUANO",
-      "TOTAL_VOTOS": "225,143",
+      "TOTAL_VOTOS": "225,155",
       "NLISTA": "2",
       "POR_VALIDOS": "1.600",
       "POR_EMITIDOS": "1.312",
@@ -32,7 +32,7 @@
     {
       "C_CODI_AGRUPOL": "00000005",
       "AGRUPACION": "EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD",
-      "TOTAL_VOTOS": "63,845",
+      "TOTAL_VOTOS": "63,867",
       "NLISTA": "3",
       "POR_VALIDOS": "0.454",
       "POR_EMITIDOS": "0.372",
@@ -41,7 +41,7 @@
     {
       "C_CODI_AGRUPOL": "00000011",
       "AGRUPACION": "PARTIDO MORADO",
-      "TOTAL_VOTOS": "317,157",
+      "TOTAL_VOTOS": "317,182",
       "NLISTA": "4",
       "POR_VALIDOS": "2.254",
       "POR_EMITIDOS": "1.848",
@@ -50,7 +50,7 @@
     {
       "C_CODI_AGRUPOL": "00000017",
       "AGRUPACION": "PERU PATRIA SEGURA",
-      "TOTAL_VOTOS": "54,107",
+      "TOTAL_VOTOS": "54,110",
       "NLISTA": "5",
       "POR_VALIDOS": "0.384",
       "POR_EMITIDOS": "0.315",
@@ -59,52 +59,52 @@
     {
       "C_CODI_AGRUPOL": "00000022",
       "AGRUPACION": "VICTORIA NACIONAL",
-      "TOTAL_VOTOS": "791,953",
+      "TOTAL_VOTOS": "792,002",
       "NLISTA": "6",
-      "POR_VALIDOS": "5.628",
-      "POR_EMITIDOS": "4.615",
+      "POR_VALIDOS": "5.627",
+      "POR_EMITIDOS": "4.614",
       "NOMBREe_CANDIDATO": "GEORGE PATRICK FORSYTH SOMMER"
     },
     {
       "C_CODI_AGRUPOL": "00000001",
       "AGRUPACION": "ACCION POPULAR",
-      "TOTAL_VOTOS": "1,281,395",
+      "TOTAL_VOTOS": "1,281,519",
       "NLISTA": "7",
       "POR_VALIDOS": "9.106",
-      "POR_EMITIDOS": "7.467",
+      "POR_EMITIDOS": "7.466",
       "NOMBREe_CANDIDATO": "YONHY LESCANO ANCIETA"
     },
     {
       "C_CODI_AGRUPOL": "00000003",
       "AGRUPACION": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-      "TOTAL_VOTOS": "1,632,881",
+      "TOTAL_VOTOS": "1,632,991",
       "NLISTA": "8",
       "POR_VALIDOS": "11.603",
-      "POR_EMITIDOS": "9.515",
+      "POR_EMITIDOS": "9.514",
       "NOMBREe_CANDIDATO": "HERNANDO DE SOTO POLAR"
     },
     {
       "C_CODI_AGRUPOL": "00000018",
       "AGRUPACION": "PODEMOS PERU",
-      "TOTAL_VOTOS": "789,366",
+      "TOTAL_VOTOS": "789,467",
       "NLISTA": "9",
       "POR_VALIDOS": "5.609",
-      "POR_EMITIDOS": "4.600",
+      "POR_EMITIDOS": "4.599",
       "NOMBREe_CANDIDATO": "DANIEL BELIZARIO URRESTI ELERA"
     },
     {
       "C_CODI_AGRUPOL": "00000008",
       "AGRUPACION": "JUNTOS POR EL PERU",
-      "TOTAL_VOTOS": "1,106,597",
+      "TOTAL_VOTOS": "1,106,669",
       "NLISTA": "10",
       "POR_VALIDOS": "7.863",
-      "POR_EMITIDOS": "6.448",
+      "POR_EMITIDOS": "6.447",
       "NOMBREe_CANDIDATO": "VERONIKA FANNY MENDOZA FRISCH"
     },
     {
       "C_CODI_AGRUPOL": "00000015",
       "AGRUPACION": "PARTIDO POPULAR CRISTIANO - PPC",
-      "TOTAL_VOTOS": "277,991",
+      "TOTAL_VOTOS": "278,015",
       "NLISTA": "11",
       "POR_VALIDOS": "1.975",
       "POR_EMITIDOS": "1.620",
@@ -113,16 +113,16 @@
     {
       "C_CODI_AGRUPOL": "00000007",
       "AGRUPACION": "FUERZA POPULAR",
-      "TOTAL_VOTOS": "1,880,127",
+      "TOTAL_VOTOS": "1,880,322",
       "NLISTA": "12",
       "POR_VALIDOS": "13.360",
-      "POR_EMITIDOS": "10.956",
+      "POR_EMITIDOS": "10.955",
       "NOMBREe_CANDIDATO": "KEIKO SOFIA FUJIMORI HIGUCHI"
     },
     {
       "C_CODI_AGRUPOL": "00000021",
       "AGRUPACION": "UNION POR EL PERU",
-      "TOTAL_VOTOS": "99,174",
+      "TOTAL_VOTOS": "99,178",
       "NLISTA": "14",
       "POR_VALIDOS": "0.705",
       "POR_EMITIDOS": "0.578",
@@ -131,16 +131,16 @@
     {
       "C_CODI_AGRUPOL": "00000020",
       "AGRUPACION": "RENOVACION POPULAR",
-      "TOTAL_VOTOS": "1,647,351",
+      "TOTAL_VOTOS": "1,647,525",
       "NLISTA": "15",
       "POR_VALIDOS": "11.706",
-      "POR_EMITIDOS": "9.599",
+      "POR_EMITIDOS": "9.598",
       "NOMBREe_CANDIDATO": "RAFAEL BERNARDO LOPEZ ALIAGA CAZORLA"
     },
     {
       "C_CODI_AGRUPOL": "00000019",
       "AGRUPACION": "RENACIMIENTO UNIDO NACIONAL",
-      "TOTAL_VOTOS": "87,718",
+      "TOTAL_VOTOS": "87,727",
       "NLISTA": "16",
       "POR_VALIDOS": "0.623",
       "POR_EMITIDOS": "0.511",
@@ -149,7 +149,7 @@
     {
       "C_CODI_AGRUPOL": "00000010",
       "AGRUPACION": "PARTIDO DEMOCRATICO SOMOS PERU",
-      "TOTAL_VOTOS": "233,890",
+      "TOTAL_VOTOS": "233,917",
       "NLISTA": "17",
       "POR_VALIDOS": "1.662",
       "POR_EMITIDOS": "1.363",
@@ -158,16 +158,16 @@
     {
       "C_CODI_AGRUPOL": "00000014",
       "AGRUPACION": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-      "TOTAL_VOTOS": "2,686,412",
+      "TOTAL_VOTOS": "2,686,667",
       "NLISTA": "18",
-      "POR_VALIDOS": "19.089",
-      "POR_EMITIDOS": "15.654",
+      "POR_VALIDOS": "19.090",
+      "POR_EMITIDOS": "15.652",
       "NOMBREe_CANDIDATO": "JOSE PEDRO CASTILLO TERRONES"
     },
     {
       "C_CODI_AGRUPOL": "00000004",
       "AGRUPACION": "DEMOCRACIA DIRECTA",
-      "TOTAL_VOTOS": "49,612",
+      "TOTAL_VOTOS": "49,619",
       "NLISTA": "19",
       "POR_VALIDOS": "0.353",
       "POR_EMITIDOS": "0.289",
@@ -176,10 +176,10 @@
     {
       "C_CODI_AGRUPOL": "00000002",
       "AGRUPACION": "ALIANZA PARA EL PROGRESO",
-      "TOTAL_VOTOS": "848,022",
+      "TOTAL_VOTOS": "848,122",
       "NLISTA": "20",
       "POR_VALIDOS": "6.026",
-      "POR_EMITIDOS": "4.942",
+      "POR_EMITIDOS": "4.941",
       "NOMBREe_CANDIDATO": "CESAR ACUÑA PERALTA"
     },
     {
@@ -189,10 +189,10 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "14,072,741",
+      "TOTAL_VOTOS": "14,074,054",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
-      "POR_EMITIDOS": "82.003"
+      "POR_EMITIDOS": "81.994"
     },
     {
       "C_CODI_AGRUPOL": "80",
@@ -201,10 +201,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "2,142,759",
+      "TOTAL_VOTOS": "2,142,999",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "12.486"
+      "POR_EMITIDOS": "12.485"
     },
     {
       "C_CODI_AGRUPOL": "81",
@@ -213,10 +213,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "945,668",
+      "TOTAL_VOTOS": "947,752",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "5.511"
+      "POR_EMITIDOS": "5.521"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -225,7 +225,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,161,168",
+      "TOTAL_VOTOS": "17,164,805",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -233,18 +233,18 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "000000",
-    "CONTABILIZA": "83,635",
-    "CONT_NORMAL": "82,860",
-    "IMPUGNADA": "251",
-    "ERROR_MAT": "1,650",
+    "CONTABILIZA": "83,653",
+    "CONT_NORMAL": "82,868",
+    "IMPUGNADA": "250",
+    "ERROR_MAT": "1,636",
     "MESAS_INSTALADAS": "85,996",
     "ACTAS_PROCESADAS": "86,488",
     "SOL_NULIDAD": "0",
     "ILEGIBLE": "70",
     "PENDIENTE": "0",
-    "OTRAS_OBS": "532",
+    "OTRAS_OBS": "529",
     "SIN_DATOS": "4",
-    "CONT_ANULADA": "283",
+    "CONT_ANULADA": "293",
     "POR_PROCESAR": "0",
     "EXTRAVIADA": "11",
     "SINIESTRADA": "0",
@@ -255,9 +255,9 @@
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "86,488",
-    "TOT_CIUDADANOS_VOTARON": "17,161,168",
-    "ELECTORES_HABIL": "24,444,472",
-    "ELECTORES_HABIL_50": "12,222,754",
-    "TOTAL_JEE": "2,853"
+    "TOT_CIUDADANOS_VOTARON": "17,164,805",
+    "ELECTORES_HABIL": "24,449,824",
+    "ELECTORES_HABIL_50": "12,225,430",
+    "TOTAL_JEE": "2,835"
   }
 }
