@@ -46,12 +46,21 @@
         table td {
             text-align: right;
         }
+        table thead th {
+            background-color: #f5f5f5;
+        }
+        .table-default table td {
+            color: #7b7b7b;
+        }
         .table-default table td:first-child {
             text-align: left;
         }
         .table-default table tr:nth-child(1) td,
         .table-default table tr:nth-child(2) td {
-            background-color: #f5f5f5;
+            color: #4a4a4a;
+        }
+        .table-default table tr:nth-child(2) td {
+            border-bottom-width: 2px;
         }
         h1 {
             margin-top: 0;

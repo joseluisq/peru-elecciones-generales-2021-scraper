@@ -257,9 +257,9 @@ Future<void> main() async {
 
 <div style="overflow-x:auto;">
 
-| Electores Hábiles | Participación Ciudadana | (%) Participación Ciudadana | (%) Actas Procesadas |
-| --- | --- | --- | --- |
-| ${general.electoresHabiles}% | ${general.totalCiudadanosVotaron} | ${general.porCiudadanosVotaron}% | ${general.porActasProcesadas}% |
+| Electores Hábiles | Participación Ciudadana | Actas Procesadas |
+| --- | --- | --- |
+| ${general.electoresHabiles}% | ${general.totalCiudadanosVotaron} (${general.porCiudadanosVotaron}%) | ${general.porActasProcesadas}% |
 
 </div>
 ''')..write('''

@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html><html lang="es">
 <head>
-  <meta name="generator" content=
-  "HTML Tidy for HTML5 for Linux version 5.4.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content=
-  "width=device-width, initial-scale=1">
-  <meta name="description" content=
-  "Un JSON Scraper de las Elecciones Generales Perú 2021">
-  <meta charset="UTF-8">
-  <title>Elecciones Generales 2021</title>
-  <style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Un JSON Scraper de las Elecciones Generales Perú 2021">
+    <meta charset="UTF-8">
+    <title>Elecciones Generales 2021</title>
+    <style>
         html {
             background-color: #fff;
             font-size: 16px;
@@ -50,12 +45,21 @@
         table td {
             text-align: right;
         }
+        table thead th {
+            background-color: #f5f5f5;
+        }
+        .table-default table td {
+            color: #7b7b7b;
+        }
         .table-default table td:first-child {
             text-align: left;
         }
         .table-default table tr:nth-child(1) td,
         .table-default table tr:nth-child(2) td {
-            background-color: #f5f5f5;
+            color: #4a4a4a;
+        }
+        .table-default table tr:nth-child(2) td {
+            border-bottom-width: 2px;
         }
         h1 {
             margin-top: 0;
@@ -88,188 +92,26 @@
                 font-size: small;
             }
         }
-  </style>
+    </style>
 </head>
 <body>
-  <h1>Elecciones Generales Perú 2021</h1>
-  <blockquote>
-    <p>Un simple JSON <a href=
-    "https://es.wikipedia.org/wiki/Web_scraping">Scraper</a> de las
-    <a href=
-    "https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T">
-    Elecciones Generales Perú 2021</a> inpirado en <a href=
-    "https://github.com/alex/nyt-2020-election-scraper">NYT Vote
-    Scraper</a>.</p>
-  </blockquote>
-  <p>Esta applicación web realiza un simple JSON scraping de la
-  página de resultados de la <a href=
-  "https://www.onpe.gob.pe/">ONPE</a> sobre las <a href=
-  "https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T">
-  Elecciones Generales Perú 2021</a> y crea un registro (<a href=
-  "https://git-scm.com/docs/git-commit"><code>commit</code></a>) en
-  un repositorio de <a href="https://git-scm.com/">Git</a>.</p>
-  <p>El objetivo es poder ver el historial y las diferencias de
-  resultados (<a href=
-  "https://git-scm.com/docs/git-diff"><code>diff</code></a>) via el
-  archivo <a href=
-  "https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/blob/master/elecciones_generales_2021.json">
-  elecciones_generales_2021.json</a>.</p>
-  <p>El contenido de esta página se actualiza cada 30 minutos.</p>
-  <h2>Fórmula Presidencial — Todos</h2>
-  <ul>
-    <li><strong>Actas Procesadas:</strong> 100.000%</li>
-    <li><strong>Actas Contabilizadas:</strong> 97.364%</li>
-    <li><strong>Fecha de Actualización:</strong> 19/04/2021 01:46
-    h</li>
-  </ul>
-  <div style="overflow-x:auto;">
-    <table>
-      <thead>
-        <tr>
-          <th>Electores Hábiles</th>
-          <th>Participación Ciudadana</th>
-          <th>(%) Participación Ciudadana</th>
-          <th>(%) Actas Procesadas</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>24,614,155%</td>
-          <td>17,285,744</td>
-          <td>70.227%</td>
-          <td>100.000%</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <h2>Total de Votos</h2>
-  <p><em>Ordenado por "(%) Votos Válidos" de forma
-  descendente.</em></p>
-  <div class="table-default" style="overflow-x:auto;">
-    <table>
-      <thead>
-        <tr>
-          <th>Organización Política</th>
-          <th>Total Votos</th>
-          <th>(%) Votos Válidos</th>
-          <th>(%) Votos Emitidos</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>PARTIDO POLITICO NACIONAL PERU LIBRE</td>
-          <td>2,697,398</td>
-          <td>19.062%</td>
-          <td>15.605%</td>
-        </tr>
-        <tr>
-          <td>FUERZA POPULAR</td>
-          <td>1,891,323</td>
-          <td>13.366%</td>
-          <td>10.942%</td>
-        </tr>
-        <tr>
-          <td>RENOVACION POPULAR</td>
-          <td>1,657,131</td>
-          <td>11.711%</td>
-          <td>9.587%</td>
-        </tr>
-        <tr>
-          <td>AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL</td>
-          <td>1,641,945</td>
-          <td>11.604%</td>
-          <td>9.499%</td>
-        </tr>
-        <tr>
-          <td>ACCION POPULAR</td>
-          <td>1,288,136</td>
-          <td>9.103%</td>
-          <td>7.452%</td>
-        </tr>
-        <tr>
-          <td>JUNTOS POR EL PERU</td>
-          <td>1,112,494</td>
-          <td>7.862%</td>
-          <td>6.436%</td>
-        </tr>
-        <tr>
-          <td>ALIANZA PARA EL PROGRESO</td>
-          <td>852,489</td>
-          <td>6.024%</td>
-          <td>4.932%</td>
-        </tr>
-        <tr>
-          <td>VICTORIA NACIONAL</td>
-          <td>797,315</td>
-          <td>5.635%</td>
-          <td>4.613%</td>
-        </tr>
-        <tr>
-          <td>PODEMOS PERU</td>
-          <td>795,689</td>
-          <td>5.623%</td>
-          <td>4.603%</td>
-        </tr>
-        <tr>
-          <td>PARTIDO MORADO</td>
-          <td>318,850</td>
-          <td>2.253%</td>
-          <td>1.845%</td>
-        </tr>
-        <tr>
-          <td>PARTIDO POPULAR CRISTIANO - PPC</td>
-          <td>279,948</td>
-          <td>1.978%</td>
-          <td>1.620%</td>
-        </tr>
-        <tr>
-          <td>PARTIDO DEMOCRATICO SOMOS PERU</td>
-          <td>235,244</td>
-          <td>1.662%</td>
-          <td>1.361%</td>
-        </tr>
-        <tr>
-          <td>PARTIDO NACIONALISTA PERUANO</td>
-          <td>226,061</td>
-          <td>1.598%</td>
-          <td>1.308%</td>
-        </tr>
-        <tr>
-          <td>UNION POR EL PERU</td>
-          <td>99,718</td>
-          <td>0.705%</td>
-          <td>0.577%</td>
-        </tr>
-        <tr>
-          <td>RENACIMIENTO UNIDO NACIONAL</td>
-          <td>88,100</td>
-          <td>0.623%</td>
-          <td>0.510%</td>
-        </tr>
-        <tr>
-          <td>EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD</td>
-          <td>64,204</td>
-          <td>0.454%</td>
-          <td>0.371%</td>
-        </tr>
-        <tr>
-          <td>PERU PATRIA SEGURA</td>
-          <td>54,432</td>
-          <td>0.385%</td>
-          <td>0.315%</td>
-        </tr>
-        <tr>
-          <td>DEMOCRACIA DIRECTA</td>
-          <td>49,904</td>
-          <td>0.353%</td>
-          <td>0.289%</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <h2>Código fuente del proyecto</h2>
-  <p><a href=
-  "https://github.com/joseluisq/peru-elecciones-generales-2021-scraper">
-  https://github.com/joseluisq/peru-elecciones-generales-2021-scraper</a></p>
-</body>
+<h1>Elecciones Generales Perú 2021</h1>
+<blockquote>
+<p>Un simple JSON <a href="https://es.wikipedia.org/wiki/Web_scraping">Scraper</a> de las <a href="https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T">Elecciones Generales Perú 2021</a> inpirado en <a href="https://github.com/alex/nyt-2020-election-scraper">NYT Vote Scraper</a>.</p>
+</blockquote>
+<p>Esta applicación web realiza un simple JSON scraping de la página de resultados de la <a href="https://www.onpe.gob.pe/">ONPE</a> sobre las <a href="https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T">Elecciones Generales Perú 2021</a> y crea un registro (<a href="https://git-scm.com/docs/git-commit"><code>commit</code></a>) en un repositorio de <a href="https://git-scm.com/">Git</a>.</p>
+<p>El objetivo es poder ver el historial y las diferencias de resultados (<a href="https://git-scm.com/docs/git-diff"><code>diff</code></a>) via el archivo <a href="https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/blob/master/elecciones_generales_2021.json">elecciones_generales_2021.json</a>.</p>
+<p>El contenido de esta página se actualiza cada 30 minutos.</p>
+<h2>Fórmula Presidencial — Todos</h2>
+<ul>
+<li><strong>Actas Procesadas:</strong> 100.000%</li>
+<li><strong>Actas Contabilizadas:</strong> 97.364%</li>
+<li><strong>Fecha de Actualización:</strong> 19/04/2021 01:46 h</li>
+</ul><div style="overflow-x:auto;">
+<table><thead><tr><th>Electores Hábiles</th><th>Participación Ciudadana</th><th>Actas Procesadas</th></tr></thead><tbody><tr><td>24,614,155%</td><td>17,285,744 (70.227%)</td><td>100.000%</td></tr></tbody></table></div>
+<h2>Total de Votos</h2>
+<p><em>Ordenado por "(%) Votos Válidos" de forma descendente.</em></p><div class="table-default" style="overflow-x:auto;">
+<table><thead><tr><th>Organización Política</th><th>Total Votos</th><th>(%) Votos Válidos</th><th>(%) Votos Emitidos</th></tr></thead><tbody><tr><td>PARTIDO POLITICO NACIONAL PERU LIBRE</td><td>2,697,398</td><td>19.062%</td><td>15.605%</td></tr><tr><td>FUERZA POPULAR</td><td>1,891,323</td><td>13.366%</td><td>10.942%</td></tr><tr><td>RENOVACION POPULAR</td><td>1,657,131</td><td>11.711%</td><td>9.587%</td></tr><tr><td>AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL</td><td>1,641,945</td><td>11.604%</td><td>9.499%</td></tr><tr><td>ACCION POPULAR</td><td>1,288,136</td><td>9.103%</td><td>7.452%</td></tr><tr><td>JUNTOS POR EL PERU</td><td>1,112,494</td><td>7.862%</td><td>6.436%</td></tr><tr><td>ALIANZA PARA EL PROGRESO</td><td>852,489</td><td>6.024%</td><td>4.932%</td></tr><tr><td>VICTORIA NACIONAL</td><td>797,315</td><td>5.635%</td><td>4.613%</td></tr><tr><td>PODEMOS PERU</td><td>795,689</td><td>5.623%</td><td>4.603%</td></tr><tr><td>PARTIDO MORADO</td><td>318,850</td><td>2.253%</td><td>1.845%</td></tr><tr><td>PARTIDO POPULAR CRISTIANO - PPC</td><td>279,948</td><td>1.978%</td><td>1.620%</td></tr><tr><td>PARTIDO DEMOCRATICO SOMOS PERU</td><td>235,244</td><td>1.662%</td><td>1.361%</td></tr><tr><td>PARTIDO NACIONALISTA PERUANO</td><td>226,061</td><td>1.598%</td><td>1.308%</td></tr><tr><td>UNION POR EL PERU</td><td>99,718</td><td>0.705%</td><td>0.577%</td></tr><tr><td>RENACIMIENTO UNIDO NACIONAL</td><td>88,100</td><td>0.623%</td><td>0.510%</td></tr><tr><td>EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD</td><td>64,204</td><td>0.454%</td><td>0.371%</td></tr><tr><td>PERU PATRIA SEGURA</td><td>54,432</td><td>0.385%</td><td>0.315%</td></tr><tr><td>DEMOCRACIA DIRECTA</td><td>49,904</td><td>0.353%</td><td>0.289%</td></tr></tbody></table></div>
+<h2>Código fuente del proyecto</h2>
+<p><a href="https://github.com/joseluisq/peru-elecciones-generales-2021-scraper">https://github.com/joseluisq/peru-elecciones-generales-2021-scraper</a></p></body>
 </html>
