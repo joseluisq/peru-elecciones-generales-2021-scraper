@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "25,243,646",
-      "TOT_CIUDADANOS_VOTARON": "17,683,756",
-      "POR_CIUDADANOS_VOTARON": "70.052",
-      "POR_ACTAS_CONTABILIZADAS": "99.827",
+      "ELECTORES_HABIL": "25,243,929",
+      "TOT_CIUDADANOS_VOTARON": "17,684,039",
+      "POR_CIUDADANOS_VOTARON": "70.053",
+      "POR_ACTAS_CONTABILIZADAS": "99.828",
       "POR_ACTAS_PROCESADAS": "100.000",
       "ACTAS_PROCESADAS": "86,488",
       "POR_PROCESAR": "0",
-      "CONTABILIZA": "86,338",
+      "CONTABILIZA": "86,339",
       "POR_POR_PROCESAR": "0.000",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "24/04/2021",
-      "HORA": "07:50 h",
-      "POR_AVANCE": "  99.7410"
+      "HORA": "08:45 h",
+      "POR_AVANCE": "  99.7427"
     },
     "realImages": "1"
   },
@@ -192,7 +192,7 @@
       "TOTAL_VOTOS": "14,387,293",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
-      "POR_EMITIDOS": "81.359"
+      "POR_EMITIDOS": "81.358"
     },
     {
       "C_CODI_AGRUPOL": "80",
@@ -204,7 +204,7 @@
       "TOTAL_VOTOS": "2,187,775",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "12.372"
+      "POR_EMITIDOS": "12.371"
     },
     {
       "C_CODI_AGRUPOL": "81",
@@ -213,10 +213,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,108,688",
+      "TOTAL_VOTOS": "1,108,971",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "6.270"
+      "POR_EMITIDOS": "6.271"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -225,7 +225,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,683,756",
+      "TOTAL_VOTOS": "17,684,039",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -233,7 +233,7 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "000000",
-    "CONTABILIZA": "86,338",
+    "CONTABILIZA": "86,339",
     "CONT_NORMAL": "84,922",
     "IMPUGNADA": "9",
     "ERROR_MAT": "65",
@@ -244,9 +244,9 @@
     "PENDIENTE": "0",
     "OTRAS_OBS": "41",
     "SIN_DATOS": "0",
-    "CONT_ANULADA": "924",
+    "CONT_ANULADA": "925",
     "POR_PROCESAR": "0",
-    "EXTRAVIADA": "11",
+    "EXTRAVIADA": "10",
     "SINIESTRADA": "0",
     "INCOMPLETA": "2",
     "SIN_FIRMA": "21",
@@ -255,9 +255,9 @@
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "86,488",
-    "TOT_CIUDADANOS_VOTARON": "17,683,756",
-    "ELECTORES_HABIL": "25,243,646",
-    "ELECTORES_HABIL_50": "12,622,336",
-    "TOTAL_JEE": "150"
+    "TOT_CIUDADANOS_VOTARON": "17,684,039",
+    "ELECTORES_HABIL": "25,243,929",
+    "ELECTORES_HABIL_50": "12,622,477",
+    "TOTAL_JEE": "149"
   }
 }
