@@ -14,7 +14,7 @@
     },
     "actData": {
       "FECHA": "26/04/2021",
-      "HORA": "11:36 h",
+      "HORA": "12:33 h",
       "POR_AVANCE": "  99.8224"
     },
     "realImages": "1"
@@ -236,13 +236,13 @@
     "CONTABILIZA": "86,388",
     "CONT_NORMAL": "84,963",
     "IMPUGNADA": "6",
-    "ERROR_MAT": "42",
+    "ERROR_MAT": "43",
     "MESAS_INSTALADAS": "85,996",
     "ACTAS_PROCESADAS": "86,488",
     "SOL_NULIDAD": "0",
     "ILEGIBLE": "0",
     "PENDIENTE": "0",
-    "OTRAS_OBS": "24",
+    "OTRAS_OBS": "23",
     "SIN_DATOS": "0",
     "CONT_ANULADA": "933",
     "POR_PROCESAR": "0",
