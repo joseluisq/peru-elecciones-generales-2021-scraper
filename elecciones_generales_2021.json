@@ -14,7 +14,7 @@
     },
     "actData": {
       "FECHA": "27/04/2021",
-      "HORA": "21:36 h",
+      "HORA": "22:39 h",
       "POR_AVANCE": "  99.8057"
     },
     "realImages": "1"
@@ -242,14 +242,14 @@
     "SOL_NULIDAD": "0",
     "ILEGIBLE": "0",
     "PENDIENTE": "0",
-    "OTRAS_OBS": "44",
+    "OTRAS_OBS": "37",
     "SIN_DATOS": "0",
     "CONT_ANULADA": "940",
     "POR_PROCESAR": "0",
     "EXTRAVIADA": "10",
     "SINIESTRADA": "0",
     "INCOMPLETA": "1",
-    "SIN_FIRMA": "15",
+    "SIN_FIRMA": "22",
     "A_INSTALAR": "86,488",
     "MESAS_NO_INST": "492",
     "FUSIONADAS": "0",
