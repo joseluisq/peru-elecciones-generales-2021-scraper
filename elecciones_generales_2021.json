@@ -14,7 +14,7 @@
     },
     "actData": {
       "FECHA": "27/04/2021",
-      "HORA": "17:44 h",
+      "HORA": "18:43 h",
       "POR_AVANCE": "  99.8277"
     },
     "realImages": "1"
@@ -235,14 +235,14 @@
     "CCODI_UBIGEO": "000000",
     "CONTABILIZA": "86,391",
     "CONT_NORMAL": "84,961",
-    "IMPUGNADA": "6",
+    "IMPUGNADA": "4",
     "ERROR_MAT": "41",
     "MESAS_INSTALADAS": "85,996",
     "ACTAS_PROCESADAS": "86,488",
     "SOL_NULIDAD": "0",
     "ILEGIBLE": "0",
     "PENDIENTE": "0",
-    "OTRAS_OBS": "23",
+    "OTRAS_OBS": "25",
     "SIN_DATOS": "0",
     "CONT_ANULADA": "938",
     "POR_PROCESAR": "0",
