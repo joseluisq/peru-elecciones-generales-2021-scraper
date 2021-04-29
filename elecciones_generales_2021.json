@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "25,272,661",
-      "TOT_CIUDADANOS_VOTARON": "17,701,308",
-      "POR_CIUDADANOS_VOTARON": "70.041",
-      "POR_ACTAS_CONTABILIZADAS": "99.940",
+      "ELECTORES_HABIL": "25,272,961",
+      "TOT_CIUDADANOS_VOTARON": "17,701,608",
+      "POR_CIUDADANOS_VOTARON": "70.042",
+      "POR_ACTAS_CONTABILIZADAS": "99.941",
       "POR_ACTAS_PROCESADAS": "100.000",
       "ACTAS_PROCESADAS": "86,488",
       "POR_PROCESAR": "0",
-      "CONTABILIZA": "86,436",
+      "CONTABILIZA": "86,437",
       "POR_POR_PROCESAR": "0.000",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "29/04/2021",
-      "HORA": "16:45 h",
-      "POR_AVANCE": "  99.9063"
+      "HORA": "17:52 h",
+      "POR_AVANCE": "  99.9081"
     },
     "realImages": "1"
   },
@@ -98,7 +98,7 @@
       "TOTAL_VOTOS": "1,132,275",
       "NLISTA": "10",
       "POR_VALIDOS": "7.865",
-      "POR_EMITIDOS": "6.397",
+      "POR_EMITIDOS": "6.396",
       "NOMBREe_CANDIDATO": "VERONIKA FANNY MENDOZA FRISCH"
     },
     {
@@ -116,7 +116,7 @@
       "TOTAL_VOTOS": "1,930,091",
       "NLISTA": "12",
       "POR_VALIDOS": "13.407",
-      "POR_EMITIDOS": "10.904",
+      "POR_EMITIDOS": "10.903",
       "NOMBREe_CANDIDATO": "KEIKO SOFIA FUJIMORI HIGUCHI"
     },
     {
@@ -192,7 +192,7 @@
       "TOTAL_VOTOS": "14,396,373",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
-      "POR_EMITIDOS": "81.329"
+      "POR_EMITIDOS": "81.328"
     },
     {
       "C_CODI_AGRUPOL": "80",
@@ -213,10 +213,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,115,412",
+      "TOTAL_VOTOS": "1,115,712",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "6.301"
+      "POR_EMITIDOS": "6.303"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -225,7 +225,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,701,308",
+      "TOTAL_VOTOS": "17,701,608",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -233,7 +233,7 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "000000",
-    "CONTABILIZA": "86,436",
+    "CONTABILIZA": "86,437",
     "CONT_NORMAL": "84,988",
     "IMPUGNADA": "2",
     "ERROR_MAT": "15",
@@ -244,9 +244,9 @@
     "PENDIENTE": "0",
     "OTRAS_OBS": "22",
     "SIN_DATOS": "0",
-    "CONT_ANULADA": "949",
+    "CONT_ANULADA": "950",
     "POR_PROCESAR": "0",
-    "EXTRAVIADA": "3",
+    "EXTRAVIADA": "2",
     "SINIESTRADA": "0",
     "INCOMPLETA": "0",
     "SIN_FIRMA": "9",
@@ -255,9 +255,9 @@
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "86,488",
-    "TOT_CIUDADANOS_VOTARON": "17,701,308",
-    "ELECTORES_HABIL": "25,272,661",
-    "ELECTORES_HABIL_50": "12,636,845",
-    "TOTAL_JEE": "52"
+    "TOT_CIUDADANOS_VOTARON": "17,701,608",
+    "ELECTORES_HABIL": "25,272,961",
+    "ELECTORES_HABIL_50": "12,636,995",
+    "TOTAL_JEE": "51"
   }
 }
