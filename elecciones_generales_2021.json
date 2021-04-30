@@ -14,7 +14,7 @@
     },
     "actData": {
       "FECHA": "30/04/2021",
-      "HORA": "10:47 h",
+      "HORA": "11:48 h",
       "POR_AVANCE": "  99.9219"
     },
     "realImages": "1"
@@ -242,11 +242,11 @@
     "SOL_NULIDAD": "0",
     "ILEGIBLE": "1",
     "PENDIENTE": "0",
-    "OTRAS_OBS": "20",
+    "OTRAS_OBS": "21",
     "SIN_DATOS": "0",
     "CONT_ANULADA": "952",
     "POR_PROCESAR": "0",
-    "EXTRAVIADA": "2",
+    "EXTRAVIADA": "1",
     "SINIESTRADA": "0",
     "INCOMPLETA": "0",
     "SIN_FIRMA": "8",
