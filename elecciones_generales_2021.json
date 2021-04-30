@@ -14,7 +14,7 @@
     },
     "actData": {
       "FECHA": "29/04/2021",
-      "HORA": "22:39 h",
+      "HORA": "23:47 h",
       "POR_AVANCE": "  99.9219"
     },
     "realImages": "1"
@@ -235,8 +235,8 @@
     "CCODI_UBIGEO": "000000",
     "CONTABILIZA": "86,445",
     "CONT_NORMAL": "84,994",
-    "IMPUGNADA": "2",
-    "ERROR_MAT": "10",
+    "IMPUGNADA": "1",
+    "ERROR_MAT": "11",
     "MESAS_INSTALADAS": "85,989",
     "ACTAS_PROCESADAS": "86,488",
     "SOL_NULIDAD": "0",
