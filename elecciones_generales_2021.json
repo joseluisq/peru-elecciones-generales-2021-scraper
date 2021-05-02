@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "25,283,154",
-      "TOT_CIUDADANOS_VOTARON": "17,709,075",
-      "POR_CIUDADANOS_VOTARON": "70.043",
-      "POR_ACTAS_CONTABILIZADAS": "99.982",
+      "ELECTORES_HABIL": "25,285,254",
+      "TOT_CIUDADANOS_VOTARON": "17,711,175",
+      "POR_CIUDADANOS_VOTARON": "70.045",
+      "POR_ACTAS_CONTABILIZADAS": "99.990",
       "POR_ACTAS_PROCESADAS": "100.000",
       "ACTAS_PROCESADAS": "86,488",
       "POR_PROCESAR": "0",
-      "CONTABILIZA": "86,472",
+      "CONTABILIZA": "86,479",
       "POR_POR_PROCESAR": "0.000",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "01/05/2021",
-      "HORA": "18:46 h",
-      "POR_AVANCE": "  99.9708"
+      "HORA": "19:44 h",
+      "POR_AVANCE": "  99.9836"
     },
     "realImages": "1"
   },
@@ -44,7 +44,7 @@
       "TOTAL_VOTOS": "325,611",
       "NLISTA": "4",
       "POR_VALIDOS": "2.261",
-      "POR_EMITIDOS": "1.839",
+      "POR_EMITIDOS": "1.838",
       "NOMBREe_CANDIDATO": "JULIO ARMANDO GUZMAN CACERES"
     },
     {
@@ -71,7 +71,7 @@
       "TOTAL_VOTOS": "1,306,270",
       "NLISTA": "7",
       "POR_VALIDOS": "9.071",
-      "POR_EMITIDOS": "7.376",
+      "POR_EMITIDOS": "7.375",
       "NOMBREe_CANDIDATO": "YONHY LESCANO ANCIETA"
     },
     {
@@ -80,7 +80,7 @@
       "TOTAL_VOTOS": "1,674,204",
       "NLISTA": "8",
       "POR_VALIDOS": "11.626",
-      "POR_EMITIDOS": "9.454",
+      "POR_EMITIDOS": "9.453",
       "NOMBREe_CANDIDATO": "HERNANDO DE SOTO POLAR"
     },
     {
@@ -116,7 +116,7 @@
       "TOTAL_VOTOS": "1,930,719",
       "NLISTA": "12",
       "POR_VALIDOS": "13.407",
-      "POR_EMITIDOS": "10.902",
+      "POR_EMITIDOS": "10.901",
       "NOMBREe_CANDIDATO": "KEIKO SOFIA FUJIMORI HIGUCHI"
     },
     {
@@ -134,7 +134,7 @@
       "TOTAL_VOTOS": "1,692,259",
       "NLISTA": "15",
       "POR_VALIDOS": "11.751",
-      "POR_EMITIDOS": "9.556",
+      "POR_EMITIDOS": "9.555",
       "NOMBREe_CANDIDATO": "RAFAEL BERNARDO LOPEZ ALIAGA CAZORLA"
     },
     {
@@ -152,7 +152,7 @@
       "TOTAL_VOTOS": "240,233",
       "NLISTA": "17",
       "POR_VALIDOS": "1.668",
-      "POR_EMITIDOS": "1.357",
+      "POR_EMITIDOS": "1.356",
       "NOMBREe_CANDIDATO": "DANIEL ENRIQUE SALAVERRY VILLA"
     },
     {
@@ -161,7 +161,7 @@
       "TOTAL_VOTOS": "2,724,723",
       "NLISTA": "18",
       "POR_VALIDOS": "18.921",
-      "POR_EMITIDOS": "15.386",
+      "POR_EMITIDOS": "15.384",
       "NOMBREe_CANDIDATO": "JOSE PEDRO CASTILLO TERRONES"
     },
     {
@@ -179,7 +179,7 @@
       "TOTAL_VOTOS": "867,011",
       "NLISTA": "20",
       "POR_VALIDOS": "6.021",
-      "POR_EMITIDOS": "4.896",
+      "POR_EMITIDOS": "4.895",
       "NOMBREe_CANDIDATO": "CESAR ACUÑA PERALTA"
     },
     {
@@ -192,7 +192,7 @@
       "TOTAL_VOTOS": "14,400,444",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
-      "POR_EMITIDOS": "81.317"
+      "POR_EMITIDOS": "81.307"
     },
     {
       "C_CODI_AGRUPOL": "80",
@@ -204,7 +204,7 @@
       "TOTAL_VOTOS": "2,190,037",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "12.367"
+      "POR_EMITIDOS": "12.365"
     },
     {
       "C_CODI_AGRUPOL": "81",
@@ -213,10 +213,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,118,594",
+      "TOTAL_VOTOS": "1,120,694",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "6.317"
+      "POR_EMITIDOS": "6.328"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -225,7 +225,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,709,075",
+      "TOTAL_VOTOS": "17,711,175",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -233,7 +233,7 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "000000",
-    "CONTABILIZA": "86,472",
+    "CONTABILIZA": "86,479",
     "CONT_NORMAL": "85,013",
     "IMPUGNADA": "0",
     "ERROR_MAT": "0",
@@ -242,22 +242,22 @@
     "SOL_NULIDAD": "0",
     "ILEGIBLE": "0",
     "PENDIENTE": "0",
-    "OTRAS_OBS": "15",
+    "OTRAS_OBS": "9",
     "SIN_DATOS": "0",
-    "CONT_ANULADA": "960",
+    "CONT_ANULADA": "967",
     "POR_PROCESAR": "0",
     "EXTRAVIADA": "0",
     "SINIESTRADA": "0",
     "INCOMPLETA": "0",
-    "SIN_FIRMA": "1",
+    "SIN_FIRMA": "0",
     "A_INSTALAR": "86,488",
     "MESAS_NO_INST": "499",
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "86,488",
-    "TOT_CIUDADANOS_VOTARON": "17,709,075",
-    "ELECTORES_HABIL": "25,283,154",
-    "ELECTORES_HABIL_50": "12,642,092",
-    "TOTAL_JEE": "16"
+    "TOT_CIUDADANOS_VOTARON": "17,711,175",
+    "ELECTORES_HABIL": "25,285,254",
+    "ELECTORES_HABIL_50": "12,643,142",
+    "TOTAL_JEE": "9"
   }
 }
