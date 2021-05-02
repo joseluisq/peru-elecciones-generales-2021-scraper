@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "25,285,254",
-      "TOT_CIUDADANOS_VOTARON": "17,711,175",
-      "POR_CIUDADANOS_VOTARON": "70.045",
-      "POR_ACTAS_CONTABILIZADAS": "99.990",
+      "ELECTORES_HABIL": "25,287,354",
+      "TOT_CIUDADANOS_VOTARON": "17,713,202",
+      "POR_CIUDADANOS_VOTARON": "70.048",
+      "POR_ACTAS_CONTABILIZADAS": "99.998",
       "POR_ACTAS_PROCESADAS": "100.000",
       "ACTAS_PROCESADAS": "86,488",
       "POR_PROCESAR": "0",
-      "CONTABILIZA": "86,479",
+      "CONTABILIZA": "86,486",
       "POR_POR_PROCESAR": "0.000",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "02/05/2021",
-      "HORA": "12:59 h",
-      "POR_AVANCE": "  99.9836"
+      "HORA": "14:40 h",
+      "POR_AVANCE": "  99.9964"
     },
     "realImages": "1"
   },
@@ -62,7 +62,7 @@
       "TOTAL_VOTOS": "814,503",
       "NLISTA": "6",
       "POR_VALIDOS": "5.656",
-      "POR_EMITIDOS": "4.599",
+      "POR_EMITIDOS": "4.598",
       "NOMBREe_CANDIDATO": "GEORGE PATRICK FORSYTH SOMMER"
     },
     {
@@ -80,7 +80,7 @@
       "TOTAL_VOTOS": "1,674,204",
       "NLISTA": "8",
       "POR_VALIDOS": "11.626",
-      "POR_EMITIDOS": "9.453",
+      "POR_EMITIDOS": "9.452",
       "NOMBREe_CANDIDATO": "HERNANDO DE SOTO POLAR"
     },
     {
@@ -89,7 +89,7 @@
       "TOTAL_VOTOS": "812,701",
       "NLISTA": "9",
       "POR_VALIDOS": "5.644",
-      "POR_EMITIDOS": "4.589",
+      "POR_EMITIDOS": "4.588",
       "NOMBREe_CANDIDATO": "DANIEL BELIZARIO URRESTI ELERA"
     },
     {
@@ -98,7 +98,7 @@
       "TOTAL_VOTOS": "1,132,560",
       "NLISTA": "10",
       "POR_VALIDOS": "7.865",
-      "POR_EMITIDOS": "6.395",
+      "POR_EMITIDOS": "6.394",
       "NOMBREe_CANDIDATO": "VERONIKA FANNY MENDOZA FRISCH"
     },
     {
@@ -116,7 +116,7 @@
       "TOTAL_VOTOS": "1,930,719",
       "NLISTA": "12",
       "POR_VALIDOS": "13.407",
-      "POR_EMITIDOS": "10.901",
+      "POR_EMITIDOS": "10.900",
       "NOMBREe_CANDIDATO": "KEIKO SOFIA FUJIMORI HIGUCHI"
     },
     {
@@ -134,7 +134,7 @@
       "TOTAL_VOTOS": "1,692,259",
       "NLISTA": "15",
       "POR_VALIDOS": "11.751",
-      "POR_EMITIDOS": "9.555",
+      "POR_EMITIDOS": "9.554",
       "NOMBREe_CANDIDATO": "RAFAEL BERNARDO LOPEZ ALIAGA CAZORLA"
     },
     {
@@ -161,7 +161,7 @@
       "TOTAL_VOTOS": "2,724,723",
       "NLISTA": "18",
       "POR_VALIDOS": "18.921",
-      "POR_EMITIDOS": "15.384",
+      "POR_EMITIDOS": "15.382",
       "NOMBREe_CANDIDATO": "JOSE PEDRO CASTILLO TERRONES"
     },
     {
@@ -192,7 +192,7 @@
       "TOTAL_VOTOS": "14,400,444",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
-      "POR_EMITIDOS": "81.307"
+      "POR_EMITIDOS": "81.298"
     },
     {
       "C_CODI_AGRUPOL": "80",
@@ -204,7 +204,7 @@
       "TOTAL_VOTOS": "2,190,037",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "12.365"
+      "POR_EMITIDOS": "12.364"
     },
     {
       "C_CODI_AGRUPOL": "81",
@@ -213,10 +213,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,120,694",
+      "TOTAL_VOTOS": "1,122,721",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "6.328"
+      "POR_EMITIDOS": "6.338"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -225,7 +225,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,711,175",
+      "TOTAL_VOTOS": "17,713,202",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -233,7 +233,7 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "000000",
-    "CONTABILIZA": "86,479",
+    "CONTABILIZA": "86,486",
     "CONT_NORMAL": "85,013",
     "IMPUGNADA": "0",
     "ERROR_MAT": "0",
@@ -242,9 +242,9 @@
     "SOL_NULIDAD": "0",
     "ILEGIBLE": "0",
     "PENDIENTE": "0",
-    "OTRAS_OBS": "9",
+    "OTRAS_OBS": "2",
     "SIN_DATOS": "0",
-    "CONT_ANULADA": "967",
+    "CONT_ANULADA": "974",
     "POR_PROCESAR": "0",
     "EXTRAVIADA": "0",
     "SINIESTRADA": "0",
@@ -255,9 +255,9 @@
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "86,488",
-    "TOT_CIUDADANOS_VOTARON": "17,711,175",
-    "ELECTORES_HABIL": "25,285,254",
-    "ELECTORES_HABIL_50": "12,643,142",
-    "TOTAL_JEE": "9"
+    "TOT_CIUDADANOS_VOTARON": "17,713,202",
+    "ELECTORES_HABIL": "25,287,354",
+    "ELECTORES_HABIL_50": "12,644,192",
+    "TOTAL_JEE": "2"
   }
 }
