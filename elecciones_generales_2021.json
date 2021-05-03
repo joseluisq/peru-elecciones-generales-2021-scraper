@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "25,287,654",
-      "TOT_CIUDADANOS_VOTARON": "17,713,416",
+      "ELECTORES_HABIL": "25,287,954",
+      "TOT_CIUDADANOS_VOTARON": "17,713,716",
       "POR_CIUDADANOS_VOTARON": "70.048",
-      "POR_ACTAS_CONTABILIZADAS": "99.999",
+      "POR_ACTAS_CONTABILIZADAS": "100.000",
       "POR_ACTAS_PROCESADAS": "100.000",
       "ACTAS_PROCESADAS": "86,488",
       "POR_PROCESAR": "0",
-      "CONTABILIZA": "86,487",
+      "CONTABILIZA": "86,488",
       "POR_POR_PROCESAR": "0.000",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "03/05/2021",
-      "HORA": "12:47 h",
-      "POR_AVANCE": "  99.9982"
+      "HORA": "13:48 h",
+      "POR_AVANCE": " 100.0000"
     },
     "realImages": "1"
   },
@@ -71,7 +71,7 @@
       "TOTAL_VOTOS": "1,306,288",
       "NLISTA": "7",
       "POR_VALIDOS": "9.071",
-      "POR_EMITIDOS": "7.375",
+      "POR_EMITIDOS": "7.374",
       "NOMBREe_CANDIDATO": "YONHY LESCANO ANCIETA"
     },
     {
@@ -80,7 +80,7 @@
       "TOTAL_VOTOS": "1,674,201",
       "NLISTA": "8",
       "POR_VALIDOS": "11.626",
-      "POR_EMITIDOS": "9.452",
+      "POR_EMITIDOS": "9.451",
       "NOMBREe_CANDIDATO": "HERNANDO DE SOTO POLAR"
     },
     {
@@ -134,7 +134,7 @@
       "TOTAL_VOTOS": "1,692,279",
       "NLISTA": "15",
       "POR_VALIDOS": "11.751",
-      "POR_EMITIDOS": "9.554",
+      "POR_EMITIDOS": "9.553",
       "NOMBREe_CANDIDATO": "RAFAEL BERNARDO LOPEZ ALIAGA CAZORLA"
     },
     {
@@ -192,7 +192,7 @@
       "TOTAL_VOTOS": "14,400,630",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
-      "POR_EMITIDOS": "81.298"
+      "POR_EMITIDOS": "81.296"
     },
     {
       "C_CODI_AGRUPOL": "80",
@@ -213,10 +213,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,122,727",
+      "TOTAL_VOTOS": "1,123,027",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "6.338"
+      "POR_EMITIDOS": "6.340"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -225,7 +225,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,713,416",
+      "TOTAL_VOTOS": "17,713,716",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -233,7 +233,7 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "000000",
-    "CONTABILIZA": "86,487",
+    "CONTABILIZA": "86,488",
     "CONT_NORMAL": "85,014",
     "IMPUGNADA": "0",
     "ERROR_MAT": "0",
@@ -242,9 +242,9 @@
     "SOL_NULIDAD": "0",
     "ILEGIBLE": "0",
     "PENDIENTE": "0",
-    "OTRAS_OBS": "1",
+    "OTRAS_OBS": "0",
     "SIN_DATOS": "0",
-    "CONT_ANULADA": "974",
+    "CONT_ANULADA": "975",
     "POR_PROCESAR": "0",
     "EXTRAVIADA": "0",
     "SINIESTRADA": "0",
@@ -255,9 +255,9 @@
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "86,488",
-    "TOT_CIUDADANOS_VOTARON": "17,713,416",
-    "ELECTORES_HABIL": "25,287,654",
-    "ELECTORES_HABIL_50": "12,644,342",
-    "TOTAL_JEE": "1"
+    "TOT_CIUDADANOS_VOTARON": "17,713,716",
+    "ELECTORES_HABIL": "25,287,954",
+    "ELECTORES_HABIL_50": "12,644,492",
+    "TOTAL_JEE": "0"
   }
 }
