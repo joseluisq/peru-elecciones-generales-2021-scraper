@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
   schedule:
-    - cron:  '15 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   scheduled:
