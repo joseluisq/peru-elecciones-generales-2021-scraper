@@ -301,15 +301,20 @@ _Ordenado por "(%) Votos Válidos" de forma descendente._
       double.parse(second.totalVotos.replaceAll(',', '').trim());
   final totalDiffPercentV = double.parse(first.porValidos.toString()) -
       double.parse(second.porValidos.toString());
+  final totalDiffEmitPercentV = double.parse(first.porEmitidos.toString()) -
+      double.parse(second.porEmitidos.toString());
 
   final totalDiff = NumberFormat('#,###,000').format(totalDiffV);
   final totalDiffPercent = NumberFormat('##0.0##').format(totalDiffPercentV);
+  final totalDiffEmitPercent =
+      NumberFormat('##0.0##').format(totalDiffEmitPercentV);
 
   details.write('''
 | ${second.agrupacion}  | ${second.totalVotos} | ${second.porValidos}% | ${second.porEmitidos}% |
 
 **Diferencia Total Votos:** $totalDiff <br>
-**Diferencia Votos Válidos (%):** $totalDiffPercent%
+**Diferencia Votos Válidos (%):** $totalDiffPercent% <br>
+**Diferencia Votos Emitidos (%):** $totalDiffEmitPercent%
 
 \n</div>
 ''');
