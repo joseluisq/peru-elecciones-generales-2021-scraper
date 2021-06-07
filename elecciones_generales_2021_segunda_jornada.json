@@ -1,17 +1,6 @@
 {
   "generals": {
-    "generalData": {
-      "ELECTORES_HABIL": "22,971,583",
-      "TOT_CIUDADANOS_VOTARON": "17,624,763",
-      "POR_CIUDADANOS_VOTARON": "76.724",
-      "POR_ACTAS_CONTABILIZADAS": "90.733",
-      "POR_ACTAS_PROCESADAS": "92.118",
-      "ACTAS_PROCESADAS": "79,671",
-      "POR_PROCESAR": "6,817",
-      "CONTABILIZA": "78,473",
-      "POR_POR_PROCESAR": "7.882",
-      "N_CANDIDATOS": "0"
-    },
+    "generalData": null,
     "actData": {
       "FECHA": "07/06/2021",
       "HORA": "08:18 h",
