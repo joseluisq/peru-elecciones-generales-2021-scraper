@@ -20,7 +20,7 @@ jit:
 
 jit2:
 	@dart --version
-	@dart compile jit-snapshot procesador.dart
+	@dart compile jit-snapshot procesador2.dart
 .PHONY: jit2
 
 dep:
