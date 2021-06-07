@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron:  '* * * * *'
+    - cron:  '15 * * * *'
 
 jobs:
   scheduled:
