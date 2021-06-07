@@ -101,11 +101,13 @@
 
 > Un simple JSON [Scraper](https://es.wikipedia.org/wiki/Web_scraping) de las [Elecciones Generales Perú 2021](https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T) celebrado el _11 de Abril de 2021_ y su segunda _jornada 6 Junio 2021_ que se se inspiró en [NYT Vote Scraper](https://github.com/alex/nyt-2020-election-scraper).
 
+_Para visualizar los resultados finales de la primera jornada ver en enlace [Elecciones Generales Perú 2021 - Primera Jornada](https://joseluisq.github.io/peru-elecciones-generales-2021-scraper/elecciones_generales_2021.html)._
+
 ---
 
 Esta applicación web realiza un simple JSON scraping de la página de resultados de la [ONPE](https://www.onpe.gob.pe/) sobre las [Elecciones Generales Perú 2021](https://www.resultadossep.eleccionesgenerales2021.pe/SEP2021/ResumenGeneral/10/T) y crea un registro ([`commit`](https://git-scm.com/docs/git-commit)) en un repositorio de [Git](https://git-scm.com/) <sup>1</sup>.
 
-El objetivo es poder ver el historial y las diferencias de resultados ([`diff`](https://git-scm.com/docs/git-diff)) via el archivo [elecciones_generales_2021.json](https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/blob/master/elecciones_generales_2021_segunda_jornada.json).
+El objetivo es poder ver el historial y las diferencias de resultados ([`diff`](https://git-scm.com/docs/git-diff)) via el archivo [elecciones_generales_2021_segunda_jornada.json](https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/blob/master/elecciones_generales_2021_segunda_jornada.json).
 
 El contenido de esta página se actualiza cada 15 minutos.
 
