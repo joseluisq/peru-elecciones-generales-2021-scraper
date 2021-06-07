@@ -40,16 +40,14 @@ jobs:
         make fmt_lint
         make lint
         make jit2
-        # mv elecciones_generales_2021.html /tmp/
         mv elecciones_generales_2021_segunda_jornada.html /tmp/
+        # mv elecciones_generales_2021.html /tmp/
     - name: Commit/Push if data changed
       run: |-
         tidy -i /tmp/elecciones_generales_2021_segunda_jornada.html > elecciones_generales_2021_segunda_jornada.html
-        # tidy -i /tmp/elecciones_generales_2021.html > elecciones_generales_2021.html
         git config user.name "Automatizado 2"
         git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
-        # git commit -m "elecciones_generales_2021.html - ${timestamp}" || exit 0
         git commit -m "elecciones_generales_2021_segunda_jornada.html - ${timestamp}" || exit 0
         git push
