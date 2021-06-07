@@ -5,8 +5,8 @@ on:
     branches:
       - master
   workflow_dispatch:
-  # schedule:
-  #   - cron:  '*/30 * * * *'
+  schedule:
+    - cron:  '*/25 * * * *'
 
 jobs:
   scheduled:
@@ -22,30 +22,30 @@ jobs:
         fetch-depth: 0
     - name: Fetch latest data
       run: |-
-        curl "https://api.resultados.eleccionesgenerales2021.pe/results/10/000000?name=param" | jq . > elecciones_generales_2021.json
+        curl "https://api.resultadossep.eleccionesgenerales2021.pe/results/10/000000?name=param" | jq . > elecciones_generales_2021_segunda_eleccion.json
     - name: Commit/Push if data changed
       run: |-
-        git config user.name "Automatizado"
+        git config user.name "Automatizado 2"
         git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
-        git commit -m "Últimos datos: ${timestamp}" || exit 0
+        git commit -m "Últimos datos 2: ${timestamp}" || exit 0
         git push
-    - name: Setup Dart SDK
-      uses: dart-lang/setup-dart@v1.0
-    - name: Processing
-      run: |-
-        make dep
-        make fmt_lint
-        make lint
-        make jit
-        mv elecciones_generales_2021.html /tmp/
-    - name: Commit/Push if data changed
-      run: |-
-        tidy -i /tmp/elecciones_generales_2021.html > elecciones_generales_2021.html
-        git config user.name "Automatizado"
-        git config user.email "actions@users.noreply.github.com"
-        git add -A
-        timestamp=$(date -u)
-        git commit -m "elecciones_generales_2021.html - ${timestamp}" || exit 0
-        git push
+    # - name: Setup Dart SDK
+    #   uses: dart-lang/setup-dart@v1.0
+    # - name: Processing
+    #   run: |-
+    #     make dep
+    #     make fmt_lint
+    #     make lint
+    #     make jit
+    #     mv elecciones_generales_2021.html /tmp/
+    # - name: Commit/Push if data changed
+    #   run: |-
+    #     tidy -i /tmp/elecciones_generales_2021.html > elecciones_generales_2021.html
+    #     git config user.name "Automatizado"
+    #     git config user.email "actions@users.noreply.github.com"
+    #     git add -A
+    #     timestamp=$(date -u)
+    #     git commit -m "elecciones_generales_2021.html - ${timestamp}" || exit 0
+    #     git push
