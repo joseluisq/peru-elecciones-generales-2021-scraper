@@ -3,6 +3,11 @@ run:
 	@dart run procesador.dart
 .PHONY: run
 
+run2:
+	@dart --version
+	@dart run procesador2.dart
+.PHONY: run2
+
 lint:
 	@dart --version
 	@dart analyze .
@@ -12,6 +17,11 @@ jit:
 	@dart --version
 	@dart compile jit-snapshot procesador.dart
 .PHONY: jit
+
+jit2:
+	@dart --version
+	@dart compile jit-snapshot procesador.dart
+.PHONY: jit2
 
 dep:
 	@dart --version
