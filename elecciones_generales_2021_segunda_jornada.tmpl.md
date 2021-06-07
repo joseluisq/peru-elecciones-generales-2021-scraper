@@ -109,7 +109,7 @@ Esta applicación web realiza un simple JSON scraping de la página de resultado
 
 El objetivo es poder ver el historial y las diferencias de resultados ([`diff`](https://git-scm.com/docs/git-diff)) via el archivo [elecciones_generales_2021_segunda_jornada.json](https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/blob/master/elecciones_generales_2021_segunda_jornada.json).
 
-El contenido de esta página se actualiza cada 15 minutos.
+El contenido de esta página se actualiza cada 10 minutos.
 
 {{body}}
 
