@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
   schedule:
-    - cron:  '*/10 * * * *'
+    - cron:  '*/30 * * * *'
 
 jobs:
   scheduled:
@@ -23,7 +23,7 @@ jobs:
     - name: Fetch latest data
       run: |-
         curl "https://api.resultadossep.eleccionesgenerales2021.pe/results/10/800000?name=param" | jq . > elecciones_generales_2021_segunda_jornada.json
-        # curl "https://api.resultadossep.eleccionesgenerales2021.pe/results/10/000000?name=param" | jq . > elecciones_generales_2021_segunda_jornada.json
+        curl "https://api.resultadossep.eleccionesgenerales2021.pe/results/10/000000?name=param" | jq . > elecciones_generales_2021_segunda_jornada_000000.json
         # curl "https://api.resultados.eleccionesgenerales2021.pe/results/10/000000?name=param" | jq . > elecciones_generales_2021.json
     - name: Commit/Push if data changed
       run: |-
