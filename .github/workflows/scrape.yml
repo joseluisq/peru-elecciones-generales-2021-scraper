@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
   schedule:
-    - cron:  '* * * * *'
+    - cron:  '*/30 * * * *'
 
 jobs:
   scheduled:
