@@ -27,6 +27,7 @@ jobs:
         # curl "https://api.resultados.eleccionesgenerales2021.pe/results/10/000000?name=param" | jq . > elecciones_generales_2021.json
     - name: Commit/Push if data changed
       run: |-
+        git pull origin master
         git config user.name "Automatizado 2"
         git config user.email "actions@users.noreply.github.com"
         git add -A
