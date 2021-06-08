@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "24,000,523",
-      "TOT_CIUDADANOS_VOTARON": "18,199,088",
+      "ELECTORES_HABIL": "24,002,416",
+      "TOT_CIUDADANOS_VOTARON": "18,200,540",
       "POR_CIUDADANOS_VOTARON": "75.828",
-      "POR_ACTAS_CONTABILIZADAS": "94.906",
-      "POR_ACTAS_PROCESADAS": "96.413",
-      "ACTAS_PROCESADAS": "83,386",
-      "POR_PROCESAR": "3,102",
-      "CONTABILIZA": "82,082",
-      "POR_POR_PROCESAR": "3.587",
+      "POR_ACTAS_CONTABILIZADAS": "94.916",
+      "POR_ACTAS_PROCESADAS": "96.424",
+      "ACTAS_PROCESADAS": "83,395",
+      "POR_PROCESAR": "3,093",
+      "CONTABILIZA": "82,091",
+      "POR_POR_PROCESAR": "3.576",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "07/06/2021",
-      "HORA": "22:18 h",
-      "POR_AVANCE": "  94.4326"
+      "HORA": "23:18 h",
+      "POR_AVANCE": "  94.4465"
     },
     "realImages": "1"
   },
@@ -23,18 +23,18 @@
     {
       "C_CODI_AGRUPOL": "00000014",
       "AGRUPACION": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-      "TOTAL_VOTOS": "8,575,142",
+      "TOTAL_VOTOS": "8,575,756",
       "NLISTA": "1",
-      "POR_VALIDOS": "50.288",
-      "POR_EMITIDOS": "47.119",
+      "POR_VALIDOS": "50.287",
+      "POR_EMITIDOS": "47.118",
       "NOMBREe_CANDIDATO": "JOSE PEDRO CASTILLO TERRONES"
     },
     {
       "C_CODI_AGRUPOL": "00000007",
       "AGRUPACION": "FUERZA POPULAR",
-      "TOTAL_VOTOS": "8,477,047",
+      "TOTAL_VOTOS": "8,477,744",
       "NLISTA": "2",
-      "POR_VALIDOS": "49.712",
+      "POR_VALIDOS": "49.713",
       "POR_EMITIDOS": "46.580",
       "NOMBREe_CANDIDATO": "KEIKO SOFIA FUJIMORI HIGUCHI"
     },
@@ -45,7 +45,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,052,189",
+      "TOTAL_VOTOS": "17,053,500",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
       "POR_EMITIDOS": "93.698"
@@ -57,7 +57,7 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "117,701",
+      "TOTAL_VOTOS": "117,745",
       "NLISTA": null,
       "POR_VALIDOS": null,
       "POR_EMITIDOS": "0.647"
@@ -69,7 +69,7 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,029,198",
+      "TOTAL_VOTOS": "1,029,295",
       "NLISTA": null,
       "POR_VALIDOS": null,
       "POR_EMITIDOS": "5.655"
@@ -81,7 +81,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "18,199,088",
+      "TOTAL_VOTOS": "18,200,540",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -89,19 +89,19 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "000000",
-    "CONTABILIZA": "82,082",
-    "CONT_NORMAL": "82,075",
+    "CONTABILIZA": "82,091",
+    "CONT_NORMAL": "82,084",
     "IMPUGNADA": "461",
     "ERROR_MAT": "384",
-    "MESAS_INSTALADAS": "83,383",
-    "ACTAS_PROCESADAS": "83,386",
+    "MESAS_INSTALADAS": "83,392",
+    "ACTAS_PROCESADAS": "83,395",
     "SOL_NULIDAD": "1",
     "ILEGIBLE": "54",
-    "PENDIENTE": "3,100",
+    "PENDIENTE": "3,091",
     "OTRAS_OBS": "193",
     "SIN_DATOS": "0",
     "CONT_ANULADA": "4",
-    "POR_PROCESAR": "3,102",
+    "POR_PROCESAR": "3,093",
     "EXTRAVIADA": "0",
     "SINIESTRADA": "0",
     "INCOMPLETA": "90",
@@ -111,9 +111,9 @@
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "86,488",
-    "TOT_CIUDADANOS_VOTARON": "18,199,088",
-    "ELECTORES_HABIL": "24,000,523",
-    "ELECTORES_HABIL_50": "12,000,742",
+    "TOT_CIUDADANOS_VOTARON": "18,200,540",
+    "ELECTORES_HABIL": "24,002,416",
+    "ELECTORES_HABIL_50": "12,001,688",
     "TOTAL_JEE": "1,304"
   }
 }
