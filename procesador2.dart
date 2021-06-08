@@ -267,6 +267,10 @@ Future<void> main() async {
 
 ## Total de Votos
 
+<div id="chart"></div>
+
+<br>
+
 _Ordenado por "(%) Votos Válidos" de forma descendente._
 
 <div class="table-default" style="overflow-x:auto;">
@@ -296,11 +300,14 @@ _Ordenado por "(%) Votos Válidos" de forma descendente._
   details.write('''
 | ${first.agrupacion}  | ${first.totalVotos} | ${first.porValidos}% | ${first.porEmitidos}% |
 ''');
+
   final second = entries[1];
+
   final totalDiffV = double.parse(first.totalVotos.replaceAll(',', '').trim()) -
       double.parse(second.totalVotos.replaceAll(',', '').trim());
-  final totalDiffPercentV = double.parse(first.porValidos.toString()) -
-      double.parse(second.porValidos.toString());
+  final votosValidosA = double.parse(first.porValidos.toString());
+  final votosValidosB = double.parse(second.porValidos.toString());
+  final totalDiffPercentV = votosValidosA - votosValidosB;
   final totalDiffEmitPercentV = double.parse(first.porEmitidos.toString()) -
       double.parse(second.porEmitidos.toString());
 
@@ -321,6 +328,46 @@ _Ordenado por "(%) Votos Válidos" de forma descendente._
 
   var pageMd = await File('elecciones_generales_2021_segunda_jornada.tmpl.md')
       .readAsString();
+
+  const jsonFileDataPath =
+      'elecciones_generales_2021_segunda_jornada_votos_validos.json';
+  final jsonFileData = File(jsonFileDataPath);
+  final jsonData = await jsonFileData.readAsString();
+  final jsonDecode = json.decode(jsonData) as Map<String, dynamic>;
+  final firstData = (jsonDecode[first.cCodiAgruPol] as List<dynamic>)
+      .map((r) => double.parse(r.toString()))
+      .toList();
+  final secondData = (jsonDecode[second.cCodiAgruPol] as List<dynamic>)
+      .map((r) => double.parse(r.toString()))
+      .toList();
+  final categoriesData = (jsonDecode['categories'] as List<dynamic>)
+      .map((r) => '"${r.toString()}"')
+      .toList();
+  final lastCategoriesData = categoriesData.last.trim();
+
+  if (general.porActasProcesadas.trim() != lastCategoriesData) {
+    categoriesData.add('"${general.porActasProcesadas}"');
+    firstData.add(votosValidosA);
+    secondData.add(votosValidosB);
+
+    pageMd =
+        pageMd.replaceFirst('{{FIRST_NAME}}', first.nombreCandidato.toString());
+    pageMd = pageMd.replaceFirst(
+        '{{SECOND_NAME}}', second.nombreCandidato.toString());
+    pageMd = pageMd.replaceFirst('{{FIRST_DATA}}', firstData.toString());
+    pageMd = pageMd.replaceFirst('{{SECOND_DATA}}', secondData.toString());
+    pageMd =
+        pageMd.replaceFirst('{{CATEGORIES_DATA}}', categoriesData.toString());
+
+    await File(jsonFileDataPath).writeAsString('''
+  {
+    "${first.cCodiAgruPol}": ${firstData.toString()},
+    "${second.cCodiAgruPol}": ${secondData.toString()},
+    "categories": ${categoriesData.toString()}
+  }
+  ''');
+  }
+
   pageMd = pageMd.replaceFirst('{{body}}', details.toString());
 
   await File('elecciones_generales_2021_segunda_jornada.html').writeAsString(

@@ -94,6 +94,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uplot@1.6.12/dist/uPlot.min.css" integrity="sha256-52OD/V+PrMDxVrbSjjp2eN+5kI+j49sF9rFQsY+sFy8=" crossorigin="anonymous">
 </head>
 <body>
 
@@ -109,7 +110,7 @@ Esta applicación web realiza un simple JSON scraping de la página de resultado
 
 El objetivo es poder ver el historial y las diferencias de resultados ([`diff`](https://git-scm.com/docs/git-diff)) via el archivo [elecciones_generales_2021_segunda_jornada.json](https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/blob/master/elecciones_generales_2021_segunda_jornada.json).
 
-El contenido de esta página se actualiza cada 5 minutos.
+El contenido de esta página se actualiza cada 30 minutos.
 
 {{body}}
 
@@ -117,5 +118,39 @@ El contenido de esta página se actualiza cada 5 minutos.
 
 <sup>1</sup> https://github.com/joseluisq/peru-elecciones-generales-2021-scraper
 
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+    window.addEventListener('load', () => {
+        const options = {
+            chart: {
+                type: 'line',
+                animations: {
+                    enabled: false,
+                    dynamicAnimation: {
+                        enabled: false,
+                    },
+                    animateGradually: {
+                        enabled: false,
+                    }
+                },
+            },
+            series: [
+                {
+                    name: '{{FIRST_NAME}}',
+                    data: {{FIRST_DATA}}
+                },
+                {
+                    name: '{{SECOND_NAME}}',
+                    data: {{SECOND_DATA}}
+                }
+            ],
+            xaxis: {
+                categories: {{CATEGORIES_DATA}}
+            },
+        }
+
+        new ApexCharts(document.querySelector("#chart"), options).render();
+    })
+</script>
 </body>
 </html>
