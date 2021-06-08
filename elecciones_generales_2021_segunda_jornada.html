@@ -98,6 +98,10 @@
             }
         }
   </style>
+  <link rel="stylesheet" href=
+  "https://cdn.jsdelivr.net/npm/uplot@1.6.12/dist/uPlot.min.css"
+  integrity="sha256-52OD/V+PrMDxVrbSjjp2eN+5kI+j49sF9rFQsY+sFy8="
+  crossorigin="anonymous">
 </head>
 <body>
   <h1>Elecciones Generales Perú 2021 - Segunda Jornada</h1>
@@ -131,7 +135,7 @@
   archivo <a href=
   "https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/blob/master/elecciones_generales_2021_segunda_jornada.json">
   elecciones_generales_2021_segunda_jornada.json</a>.</p>
-  <p>El contenido de esta página se actualiza cada 5 minutos.</p>
+  <p>El contenido de esta página se actualiza cada 30 minutos.</p>
   <h2>Fórmula Presidencial — Todos</h2>
   <ul>
     <li><strong>Actas Procesadas:</strong> 98.095%</li>
@@ -158,6 +162,7 @@
     </table>
   </div>
   <h2>Total de Votos</h2>
+  <div id="chart"></div><br>
   <p><em>Ordenado por "(%) Votos Válidos" de forma
   descendente.</em></p>
   <div class="table-default" style="overflow-x:auto;">
@@ -193,5 +198,40 @@
   <p><sup>1</sup> <a href=
   "https://github.com/joseluisq/peru-elecciones-generales-2021-scraper">
   https://github.com/joseluisq/peru-elecciones-generales-2021-scraper</a></p>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script>
+
+    window.addEventListener('load', () => {
+        const options = {
+            chart: {
+                type: 'line',
+                animations: {
+                    enabled: false,
+                    dynamicAnimation: {
+                        enabled: false,
+                    },
+                    animateGradually: {
+                        enabled: false,
+                    }
+                },
+            },
+            series: [
+                {
+                    name: 'JOSE PEDRO CASTILLO TERRONES',
+                    data: [50.3, 50.288, 50.288, 50.269, 50.254, 50.254, 50.254, 50.254, 50.254, 50.255, 50.244, 50.244, 50.23, 50.227, 50.227, 50.22, 50.221, 50.214, 50.205, 50.203, 50.22, 50.241, 50.248]
+                },
+                {
+                    name: 'KEIKO SOFIA FUJIMORI HIGUCHI',
+                    data: [50.3, 49.712, 49.712, 49.731, 49.746, 49.746, 49.746, 49.746, 49.746, 49.745, 49.756, 49.756, 49.77, 49.773, 49.773, 49.78, 49.779, 49.786, 49.795, 49.797, 49.77, 49.759, 49.752]
+                }
+            ],
+            xaxis: {
+                categories: ["96,43%", "96,430%", "96,430%", "96,665%", "96,795%", "96,795%", "96,795%", "96,795%", "96,795%", "96,983%", "97,168%", "97,170%", "97,285%", "97,311%", "97,311%", "97,402%", "97,402%", "97,578%", "97,789%", "97,814%", "97,93%", "98,06%", "98.095"]
+            },
+        }
+
+        new ApexCharts(document.querySelector("#chart"), options).render();
+    })
+  </script>
 </body>
 </html>
