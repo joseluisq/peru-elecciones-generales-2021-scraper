@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "23,622,493",
-      "TOT_CIUDADANOS_VOTARON": "18,039,045",
-      "POR_CIUDADANOS_VOTARON": "76.364",
-      "POR_ACTAS_CONTABILIZADAS": "97.203",
-      "POR_ACTAS_PROCESADAS": "98.642",
-      "ACTAS_PROCESADAS": "81,920",
-      "POR_PROCESAR": "1,128",
-      "CONTABILIZA": "80,725",
-      "POR_POR_PROCESAR": "1.358",
+      "ELECTORES_HABIL": "23,652,207",
+      "TOT_CIUDADANOS_VOTARON": "18,054,389",
+      "POR_CIUDADANOS_VOTARON": "76.333",
+      "POR_ACTAS_CONTABILIZADAS": "97.330",
+      "POR_ACTAS_PROCESADAS": "98.777",
+      "ACTAS_PROCESADAS": "82,032",
+      "POR_PROCESAR": "1,016",
+      "CONTABILIZA": "80,831",
+      "POR_POR_PROCESAR": "1.223",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "07/06/2021",
-      "HORA": "17:48 h",
-      "POR_AVANCE": "  93.8633"
+      "HORA": "18:48 h",
+      "POR_AVANCE": "  93.9648"
     },
     "realImages": "1"
   },
@@ -23,7 +23,7 @@
     {
       "C_CODI_AGRUPOL": "00000014",
       "AGRUPACION": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-      "TOTAL_VOTOS": "8,505,795",
+      "TOTAL_VOTOS": "8,513,091",
       "NLISTA": "1",
       "POR_VALIDOS": "50.321",
       "POR_EMITIDOS": "47.152",
@@ -32,7 +32,7 @@
     {
       "C_CODI_AGRUPOL": "00000007",
       "AGRUPACION": "FUERZA POPULAR",
-      "TOTAL_VOTOS": "8,397,244",
+      "TOTAL_VOTOS": "8,404,352",
       "NLISTA": "2",
       "POR_VALIDOS": "49.679",
       "POR_EMITIDOS": "46.550",
@@ -45,7 +45,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "16,903,039",
+      "TOTAL_VOTOS": "16,917,443",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
       "POR_EMITIDOS": "93.703"
@@ -57,7 +57,7 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "116,338",
+      "TOTAL_VOTOS": "116,512",
       "NLISTA": null,
       "POR_VALIDOS": null,
       "POR_EMITIDOS": "0.645"
@@ -69,10 +69,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,019,668",
+      "TOTAL_VOTOS": "1,020,434",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "5.653"
+      "POR_EMITIDOS": "5.652"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -81,7 +81,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "18,039,045",
+      "TOTAL_VOTOS": "18,054,389",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -89,31 +89,31 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "800000",
-    "CONTABILIZA": "80,725",
-    "CONT_NORMAL": "80,721",
+    "CONTABILIZA": "80,831",
+    "CONT_NORMAL": "80,827",
     "IMPUGNADA": "429",
-    "ERROR_MAT": "358",
-    "MESAS_INSTALADAS": "81,920",
-    "ACTAS_PROCESADAS": "81,920",
+    "ERROR_MAT": "360",
+    "MESAS_INSTALADAS": "82,032",
+    "ACTAS_PROCESADAS": "82,032",
     "SOL_NULIDAD": "1",
-    "ILEGIBLE": "44",
-    "PENDIENTE": "1,126",
-    "OTRAS_OBS": "180",
+    "ILEGIBLE": "46",
+    "PENDIENTE": "1,002",
+    "OTRAS_OBS": "181",
     "SIN_DATOS": "0",
     "CONT_ANULADA": "4",
-    "POR_PROCESAR": "1,128",
+    "POR_PROCESAR": "1,016",
     "EXTRAVIADA": "0",
     "SINIESTRADA": "0",
-    "INCOMPLETA": "70",
+    "INCOMPLETA": "71",
     "SIN_FIRMA": "113",
     "A_INSTALAR": "83,048",
     "MESAS_NO_INST": "0",
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "83,048",
-    "TOT_CIUDADANOS_VOTARON": "18,039,045",
-    "ELECTORES_HABIL": "23,622,493",
-    "ELECTORES_HABIL_50": "11,811,693",
-    "TOTAL_JEE": "1,195"
+    "TOT_CIUDADANOS_VOTARON": "18,054,389",
+    "ELECTORES_HABIL": "23,652,207",
+    "ELECTORES_HABIL_50": "11,826,551",
+    "TOTAL_JEE": "1,201"
   }
 }
