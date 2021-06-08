@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "23,745,939",
-      "TOT_CIUDADANOS_VOTARON": "18,108,142",
-      "POR_CIUDADANOS_VOTARON": "76.258",
-      "POR_ACTAS_CONTABILIZADAS": "97.737",
+      "ELECTORES_HABIL": "23,746,239",
+      "TOT_CIUDADANOS_VOTARON": "18,108,203",
+      "POR_CIUDADANOS_VOTARON": "76.257",
+      "POR_ACTAS_CONTABILIZADAS": "97.739",
       "POR_ACTAS_PROCESADAS": "99.179",
       "ACTAS_PROCESADAS": "82,366",
       "POR_PROCESAR": "682",
-      "CONTABILIZA": "81,169",
+      "CONTABILIZA": "81,170",
       "POR_POR_PROCESAR": "0.821",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "08/06/2021",
-      "HORA": "09:18 h",
-      "POR_AVANCE": "  95.1348"
+      "HORA": "09:48 h",
+      "POR_AVANCE": "  95.1626"
     },
     "realImages": "1"
   },
@@ -35,7 +35,7 @@
       "TOTAL_VOTOS": "8,418,231",
       "NLISTA": "2",
       "POR_VALIDOS": "49.614",
-      "POR_EMITIDOS": "46.489",
+      "POR_EMITIDOS": "46.488",
       "NOMBREe_CANDIDATO": "KEIKO SOFIA FUJIMORI HIGUCHI"
     },
     {
@@ -69,7 +69,7 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,023,476",
+      "TOTAL_VOTOS": "1,023,537",
       "NLISTA": null,
       "POR_VALIDOS": null,
       "POR_EMITIDOS": "5.652"
@@ -81,7 +81,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "18,108,142",
+      "TOTAL_VOTOS": "18,108,203",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -89,8 +89,8 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "800000",
-    "CONTABILIZA": "81,169",
-    "CONT_NORMAL": "81,165",
+    "CONTABILIZA": "81,170",
+    "CONT_NORMAL": "81,166",
     "IMPUGNADA": "427",
     "ERROR_MAT": "360",
     "MESAS_INSTALADAS": "82,366",
@@ -98,7 +98,7 @@
     "SOL_NULIDAD": "1",
     "ILEGIBLE": "46",
     "PENDIENTE": "682",
-    "OTRAS_OBS": "179",
+    "OTRAS_OBS": "178",
     "SIN_DATOS": "0",
     "CONT_ANULADA": "4",
     "POR_PROCESAR": "682",
@@ -111,9 +111,9 @@
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "83,048",
-    "TOT_CIUDADANOS_VOTARON": "18,108,142",
-    "ELECTORES_HABIL": "23,745,939",
-    "ELECTORES_HABIL_50": "11,873,419",
-    "TOTAL_JEE": "1,197"
+    "TOT_CIUDADANOS_VOTARON": "18,108,203",
+    "ELECTORES_HABIL": "23,746,239",
+    "ELECTORES_HABIL_50": "11,873,569",
+    "TOTAL_JEE": "1,196"
   }
 }
