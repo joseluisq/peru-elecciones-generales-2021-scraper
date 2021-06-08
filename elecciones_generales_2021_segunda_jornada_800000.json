@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "23,847,405",
-      "TOT_CIUDADANOS_VOTARON": "18,170,534",
-      "POR_CIUDADANOS_VOTARON": "76.195",
-      "POR_ACTAS_CONTABILIZADAS": "98.166",
-      "POR_ACTAS_PROCESADAS": "99.489",
-      "ACTAS_PROCESADAS": "82,624",
-      "POR_PROCESAR": "424",
-      "CONTABILIZA": "81,525",
-      "POR_POR_PROCESAR": "0.511",
+      "ELECTORES_HABIL": "23,863,627",
+      "TOT_CIUDADANOS_VOTARON": "18,182,292",
+      "POR_CIUDADANOS_VOTARON": "76.192",
+      "POR_ACTAS_CONTABILIZADAS": "98.235",
+      "POR_ACTAS_PROCESADAS": "99.550",
+      "ACTAS_PROCESADAS": "82,674",
+      "POR_PROCESAR": "374",
+      "CONTABILIZA": "81,582",
+      "POR_POR_PROCESAR": "0.450",
       "N_CANDIDATOS": "0"
     },
     "actData": {
       "FECHA": "08/06/2021",
-      "HORA": "17:20 h",
-      "POR_AVANCE": "  95.9262"
+      "HORA": "17:41 h",
+      "POR_AVANCE": "  95.9684"
     },
     "realImages": "1"
   },
@@ -23,19 +23,19 @@
     {
       "C_CODI_AGRUPOL": "00000014",
       "AGRUPACION": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-      "TOTAL_VOTOS": "8,584,669",
+      "TOTAL_VOTOS": "8,593,815",
       "NLISTA": "1",
-      "POR_VALIDOS": "50.431",
-      "POR_EMITIDOS": "47.245",
+      "POR_VALIDOS": "50.451",
+      "POR_EMITIDOS": "47.265",
       "NOMBREe_CANDIDATO": "JOSE PEDRO CASTILLO TERRONES"
     },
     {
       "C_CODI_AGRUPOL": "00000007",
       "AGRUPACION": "FUERZA POPULAR",
-      "TOTAL_VOTOS": "8,438,015",
+      "TOTAL_VOTOS": "8,440,219",
       "NLISTA": "2",
-      "POR_VALIDOS": "49.569",
-      "POR_EMITIDOS": "46.438",
+      "POR_VALIDOS": "49.549",
+      "POR_EMITIDOS": "46.420",
       "NOMBREe_CANDIDATO": "KEIKO SOFIA FUJIMORI HIGUCHI"
     },
     {
@@ -45,10 +45,10 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,022,684",
+      "TOTAL_VOTOS": "17,034,034",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
-      "POR_EMITIDOS": "93.683"
+      "POR_EMITIDOS": "93.685"
     },
     {
       "C_CODI_AGRUPOL": "80",
@@ -57,7 +57,7 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "117,674",
+      "TOTAL_VOTOS": "117,752",
       "NLISTA": null,
       "POR_VALIDOS": null,
       "POR_EMITIDOS": "0.648"
@@ -69,10 +69,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,030,176",
+      "TOTAL_VOTOS": "1,030,506",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "5.669"
+      "POR_EMITIDOS": "5.668"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -81,7 +81,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "18,170,534",
+      "TOTAL_VOTOS": "18,182,292",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -89,19 +89,19 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "800000",
-    "CONTABILIZA": "81,525",
-    "CONT_NORMAL": "81,509",
-    "IMPUGNADA": "399",
-    "ERROR_MAT": "331",
-    "MESAS_INSTALADAS": "82,624",
-    "ACTAS_PROCESADAS": "82,624",
+    "CONTABILIZA": "81,582",
+    "CONT_NORMAL": "81,566",
+    "IMPUGNADA": "396",
+    "ERROR_MAT": "328",
+    "MESAS_INSTALADAS": "82,674",
+    "ACTAS_PROCESADAS": "82,674",
     "SOL_NULIDAD": "1",
     "ILEGIBLE": "43",
-    "PENDIENTE": "421",
-    "OTRAS_OBS": "163",
+    "PENDIENTE": "373",
+    "OTRAS_OBS": "162",
     "SIN_DATOS": "0",
     "CONT_ANULADA": "16",
-    "POR_PROCESAR": "424",
+    "POR_PROCESAR": "374",
     "EXTRAVIADA": "0",
     "SINIESTRADA": "0",
     "INCOMPLETA": "64",
@@ -111,9 +111,9 @@
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "83,048",
-    "TOT_CIUDADANOS_VOTARON": "18,170,534",
-    "ELECTORES_HABIL": "23,847,405",
-    "ELECTORES_HABIL_50": "11,924,158",
-    "TOTAL_JEE": "1,099"
+    "TOT_CIUDADANOS_VOTARON": "18,182,292",
+    "ELECTORES_HABIL": "23,863,627",
+    "ELECTORES_HABIL_50": "11,932,269",
+    "TOTAL_JEE": "1,092"
   }
 }
