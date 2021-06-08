@@ -343,21 +343,13 @@ _Ordenado por "(%) Votos Válidos" de forma descendente._
   final categoriesData = (jsonDecode['categories'] as List<dynamic>)
       .map((r) => '"${r.toString()}"')
       .toList();
-  final lastCategoriesData = categoriesData.last.trim();
+  final lastCategoriesData = categoriesData.last.trim().replaceAll('"', '');
+  final porActasProcesadas = general.porActasProcesadas.trim();
 
-  if (general.porActasProcesadas.trim() != lastCategoriesData) {
-    categoriesData.add('"${general.porActasProcesadas}"');
+  if (porActasProcesadas != lastCategoriesData) {
+    categoriesData.add('"$porActasProcesadas"');
     firstData.add(votosValidosA);
     secondData.add(votosValidosB);
-
-    pageMd =
-        pageMd.replaceFirst('{{FIRST_NAME}}', first.nombreCandidato.toString());
-    pageMd = pageMd.replaceFirst(
-        '{{SECOND_NAME}}', second.nombreCandidato.toString());
-    pageMd = pageMd.replaceFirst('{{FIRST_DATA}}', firstData.toString());
-    pageMd = pageMd.replaceFirst('{{SECOND_DATA}}', secondData.toString());
-    pageMd =
-        pageMd.replaceFirst('{{CATEGORIES_DATA}}', categoriesData.toString());
 
     await File(jsonFileDataPath).writeAsString('''
   {
@@ -367,6 +359,15 @@ _Ordenado por "(%) Votos Válidos" de forma descendente._
   }
   ''');
   }
+
+  pageMd =
+      pageMd.replaceFirst('{{FIRST_NAME}}', first.nombreCandidato.toString());
+  pageMd =
+      pageMd.replaceFirst('{{SECOND_NAME}}', second.nombreCandidato.toString());
+  pageMd = pageMd.replaceFirst('{{FIRST_DATA}}', firstData.toString());
+  pageMd = pageMd.replaceFirst('{{SECOND_DATA}}', secondData.toString());
+  pageMd =
+      pageMd.replaceFirst('{{CATEGORIES_DATA}}', categoriesData.toString());
 
   pageMd = pageMd.replaceFirst('{{body}}', details.toString());
 
