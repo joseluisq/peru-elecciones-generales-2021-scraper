@@ -265,11 +265,11 @@ Future<void> main() async {
 </div>
 ''')..write('''
 
-## Total de Votos
+## Total de votos por actas procesadas
 
 <div id="chart"></div>
 
-<br>
+## Total de Votos
 
 _Ordenado por "(%) Votos Válidos" de forma descendente._
 
