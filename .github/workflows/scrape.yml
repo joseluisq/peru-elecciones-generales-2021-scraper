@@ -5,17 +5,17 @@ on:
     branches:
       - master
   workflow_dispatch:
-  schedule:
-    - cron:  '*/30 * * * *'
+  # schedule:
+  #   - cron:  '*/30 * * * *'
 
 jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-    - name: Dependencies
-      run: |-
-        curl -LO https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bit.deb
-        sudo dpkg -i tidy-5.4.0-64bit.deb
+    # - name: Dependencies
+    #   run: |-
+    #     curl -LO https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bit.deb
+    #     sudo dpkg -i tidy-5.4.0-64bit.deb
     - name: Check out
       uses: actions/checkout@v2
       with:
