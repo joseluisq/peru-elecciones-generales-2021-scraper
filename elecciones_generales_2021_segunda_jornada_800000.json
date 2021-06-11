@@ -1,21 +1,21 @@
 {
   "generals": {
     "generalData": {
-      "ELECTORES_HABIL": "24,221,995",
-      "TOT_CIUDADANOS_VOTARON": "18,440,168",
-      "POR_CIUDADANOS_VOTARON": "76.130",
-      "POR_ACTAS_CONTABILIZADAS": "99.721",
+      "ELECTORES_HABIL": "24,235,672",
+      "TOT_CIUDADANOS_VOTARON": "18,450,464",
+      "POR_CIUDADANOS_VOTARON": "76.129",
+      "POR_ACTAS_CONTABILIZADAS": "99.776",
       "POR_ACTAS_PROCESADAS": "100.000",
       "ACTAS_PROCESADAS": "83,048",
       "POR_PROCESAR": "0",
-      "CONTABILIZA": "82,816",
+      "CONTABILIZA": "82,862",
       "POR_POR_PROCESAR": "0.000",
       "N_CANDIDATOS": "0"
     },
     "actData": {
-      "FECHA": "10/06/2021",
-      "HORA": "19:53 h",
-      "POR_AVANCE": "  99.1323"
+      "FECHA": "11/06/2021",
+      "HORA": "01:50 h",
+      "POR_AVANCE": "99.3692"
     },
     "realImages": "1"
   },
@@ -23,19 +23,19 @@
     {
       "C_CODI_AGRUPOL": "00000014",
       "AGRUPACION": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-      "TOTAL_VOTOS": "8,706,917",
+      "TOTAL_VOTOS": "8,710,273",
       "NLISTA": "1",
-      "POR_VALIDOS": "50.479",
-      "POR_EMITIDOS": "47.217",
+      "POR_VALIDOS": "50.475",
+      "POR_EMITIDOS": "47.209",
       "NOMBREe_CANDIDATO": "JOSE PEDRO CASTILLO TERRONES"
     },
     {
       "C_CODI_AGRUPOL": "00000007",
       "AGRUPACION": "FUERZA POPULAR",
-      "TOTAL_VOTOS": "8,541,588",
+      "TOTAL_VOTOS": "8,546,281",
       "NLISTA": "2",
-      "POR_VALIDOS": "49.521",
-      "POR_EMITIDOS": "46.321",
+      "POR_VALIDOS": "49.525",
+      "POR_EMITIDOS": "46.320",
       "NOMBREe_CANDIDATO": "KEIKO SOFIA FUJIMORI HIGUCHI"
     },
     {
@@ -45,10 +45,10 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "17,248,505",
+      "TOTAL_VOTOS": "17,256,554",
       "NLISTA": null,
       "POR_VALIDOS": "100.000",
-      "POR_EMITIDOS": "93.538"
+      "POR_EMITIDOS": "93.529"
     },
     {
       "C_CODI_AGRUPOL": "80",
@@ -57,7 +57,7 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "119,248",
+      "TOTAL_VOTOS": "119,291",
       "NLISTA": null,
       "POR_VALIDOS": null,
       "POR_EMITIDOS": "0.647"
@@ -69,10 +69,10 @@
       "PORC_AVANCE_ACTA": "0.000",
       "ACTAS_COMPUTADA": "0",
       "TOTAL_MESAS": "0",
-      "TOTAL_VOTOS": "1,072,415",
+      "TOTAL_VOTOS": "1,074,619",
       "NLISTA": null,
       "POR_VALIDOS": null,
-      "POR_EMITIDOS": "5.816"
+      "POR_EMITIDOS": "5.824"
     },
     {
       "C_CODI_AGRUPOL": null,
@@ -81,7 +81,7 @@
       "PORC_AVANCE_ACTA": null,
       "ACTAS_COMPUTADA": null,
       "TOTAL_MESAS": null,
-      "TOTAL_VOTOS": "18,440,168",
+      "TOTAL_VOTOS": "18,450,464",
       "NLISTA": null,
       "POR_EMITIDOS": "100.000",
       "POR_VALIDOS": null
@@ -89,31 +89,31 @@
   ],
   "summary": {
     "CCODI_UBIGEO": "800000",
-    "CONTABILIZA": "82,816",
-    "CONT_NORMAL": "82,670",
-    "IMPUGNADA": "160",
-    "ERROR_MAT": "25",
+    "CONTABILIZA": "82,862",
+    "CONT_NORMAL": "82,707",
+    "IMPUGNADA": "146",
+    "ERROR_MAT": "14",
     "MESAS_INSTALADAS": "83,048",
     "ACTAS_PROCESADAS": "83,048",
-    "SOL_NULIDAD": "1",
-    "ILEGIBLE": "7",
+    "SOL_NULIDAD": "0",
+    "ILEGIBLE": "4",
     "PENDIENTE": "0",
-    "OTRAS_OBS": "21",
+    "OTRAS_OBS": "12",
     "SIN_DATOS": "0",
-    "CONT_ANULADA": "146",
+    "CONT_ANULADA": "155",
     "POR_PROCESAR": "0",
     "EXTRAVIADA": "0",
     "SINIESTRADA": "0",
-    "INCOMPLETA": "5",
-    "SIN_FIRMA": "13",
+    "INCOMPLETA": "3",
+    "SIN_FIRMA": "7",
     "A_INSTALAR": "83,048",
     "MESAS_NO_INST": "0",
     "FUSIONADAS": "0",
     "NTOTAL_AUTO": "0",
     "MESAS_HABILES": "83,048",
-    "TOT_CIUDADANOS_VOTARON": "18,440,168",
-    "ELECTORES_HABIL": "24,221,995",
-    "ELECTORES_HABIL_50": "12,111,457",
-    "TOTAL_JEE": "232"
+    "TOT_CIUDADANOS_VOTARON": "18,450,464",
+    "ELECTORES_HABIL": "24,235,672",
+    "ELECTORES_HABIL_50": "12,118,296",
+    "TOTAL_JEE": "186"
   }
 }
