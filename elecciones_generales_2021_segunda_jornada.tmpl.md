@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Un JSON Scraper de las Elecciones Generales Perú 2021">
     <meta charset="UTF-8">
-    <title>Elecciones Generales 2021</title>
+    <title>Elecciones Generales Perú 2021 - Segunda Jornada</title>
     <style>
         html {
             background-color: #fff;
@@ -100,9 +100,11 @@
 
 # Elecciones Generales Perú 2021 - Segunda Jornada
 
-> Un simple JSON [Scraper](https://es.wikipedia.org/wiki/Web_scraping) de las [Elecciones Generales Perú 2021](https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T) celebrado el _11 de Abril de 2021_ y su segunda _jornada 6 Junio 2021_ que se se inspiró en [NYT Vote Scraper](https://github.com/alex/nyt-2020-election-scraper).
+> Un simple JSON [Scraper](https://es.wikipedia.org/wiki/Web_scraping) de las [Elecciones Generales Perú 2021](https://www.resultados.eleccionesgenerales2021.pe/EG2021/EleccionesPresidenciales/RePres/T) celebrado el _11 de Abril de 2021_ y su segunda _jornada el 6 Junio 2021_ que se se inspiró en [NYT Vote Scraper](https://github.com/alex/nyt-2020-election-scraper).
 
 _Para visualizar los resultados finales de la primera jornada ver en enlace [Elecciones Generales Perú 2021 - Primera Jornada](https://joseluisq.github.io/peru-elecciones-generales-2021-scraper/elecciones_generales_2021.html)._
+
+**Finalizado:** 20 de Julio 2021 a las 12:31 CEST | Commit [5078af3f](https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/commit/5078af3ff228e940dfd01d75a04b7abf1be00251)
 
 ---
 
@@ -110,7 +112,7 @@ Esta applicación web realiza un simple JSON scraping de la página de resultado
 
 El objetivo es poder ver el historial y las diferencias de resultados ([`diff`](https://git-scm.com/docs/git-diff)) via el archivo [elecciones_generales_2021_segunda_jornada.json](https://github.com/joseluisq/peru-elecciones-generales-2021-scraper/blob/master/elecciones_generales_2021_segunda_jornada.json).
 
-El contenido de esta página se actualiza cada 30 minutos.
+~~El contenido de esta página se actualiza cada 30 minutos.~~
 
 {{body}}
 
